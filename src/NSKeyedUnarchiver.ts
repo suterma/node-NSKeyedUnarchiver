@@ -1,4 +1,4 @@
-import { Unarchiver } from "./Unarchiver";
+import { Unarchiver } from './Unarchiver';
 
 /* Defines an Unarchiver for keyed property lists*/
 interface INSKeyedUnarchiver {
@@ -12,7 +12,7 @@ interface INSKeyedUnarchiver {
     unarchive(propertyList: any[]): any;
 }
 
-/** A simple NSKeyedUnarchiver (implmented and tested only to work with a property list from the LivePlayback iOS App).
+/** A simple NSKeyedUnarchiver (implemented and tested only to work with a property list from the LivePlayback iOS App).
  * @remarks This implementation has been specifically created for the above task, and in no way a complete solution. Feel free to fork or suggest improvements.
  * @devdoc This work is heavily based on a similar project for python. The same limitations as stated there apply to the current
  * state of this projet, especially for circular references. Also, the UID type is not implemented, the number type is used.
