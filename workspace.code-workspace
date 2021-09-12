@@ -1,0 +1,13 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "prettier.singleQuote": true,
+        "prettier.tabWidth": 4,
+        "editor.formatOnSave": true,
+        "editor.detectIndentation": false
+    }
+}
