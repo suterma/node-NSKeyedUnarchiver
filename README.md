@@ -2,6 +2,17 @@
 
 A simple NSKeyedUnarchiver (implemented and tested only to work with data from the [LivePlayback](https://apps.apple.com/us/app/liveplayback/id469746819) iOS App).
 
+## Usage
+
+This unarchiver processes "object" property lists as provided by this [bplist-parser](https://github.com/joeferner/node-bplist-parser)
+
+    import NSKeyedUnarchiver from "./src/NSKeyedUnarchiver";
+    const inputPropertyList ...; //as provided by bplist-parser
+    var unarchivedObject = new NSKeyedUnarchiver().unarchive(inputPropertyList);
+    console.log(unarchivedObject);
+
+See [demo.ts](https://github.com/suterma/node-NSKeyedUnarchiver/blob/main/demo.ts) for a working example
+
 ## Remarks / Limitations
 
 This implementation has been specifically created for the above task, and is in no way a complete solution. Feel free to fork or suggest improvements.
