@@ -17,7 +17,7 @@ export class PlayListItem implements IDecodeable {
     /** @inheritdoc */
     decode_archive(archive_obj: ArchivedObject): any {
         //Hint: the data property is intentionally left out because it is not used by downstream processing
-        var decodedPlayListItem = {
+        const decodedPlayListItem = {
             Duration: archive_obj.decode_index(
                 (archive_obj.object as any).TDuration.UID
             ),

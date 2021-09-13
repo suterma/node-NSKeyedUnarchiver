@@ -112,7 +112,7 @@ export class Unarchiver implements IUnarchiver {
             //raise MissingClassMetaData(index, meta)
         }*/
 
-        var name = meta.$classname;
+        const name = meta.$classname;
 
         //TODO we should assert the class name
         /*
@@ -122,7 +122,7 @@ export class Unarchiver implements IUnarchiver {
         raise MissingClassName(meta)
         }*/
 
-        var klass = new this.UNARCHIVE_CLASS_MAP[name]();
+        const klass = new this.UNARCHIVE_CLASS_MAP[name]();
         if (klass == undefined) {
             throw new Error("MissingClassMapping(name, UNARCHIVE_CLASS_MAP)");
         }
@@ -132,7 +132,7 @@ export class Unarchiver implements IUnarchiver {
 
     /** @inheritdoc */
     decode_key(obj: any, key: any): any {
-        var val = obj[key];
+        const val = obj[key];
         if (obj == typeof Number) {
             return this.decode_object(val);
         }
@@ -147,9 +147,7 @@ export class Unarchiver implements IUnarchiver {
             return null;
         }
 
-        var obj = null;
-
-        var obj = this.unpacked_uids[index];
+        let obj = this.unpacked_uids[index];
         if (obj == typeof CycleToken) {
             throw new Error("CircularReference(index)");
         }

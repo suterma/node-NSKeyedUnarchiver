@@ -1,6 +1,6 @@
 //Demonstrates the use of NSKeyedUnarchiver
 
-var inputPropertyList = [
+const inputPropertyList = [
     {
         $version: 100000,
         $objects: [
@@ -4202,5 +4202,5 @@ var inputPropertyList = [
 ];
 
 import NSKeyedUnarchiver from "./src/NSKeyedUnarchiver";
-var unarchivedObject = new NSKeyedUnarchiver().unarchive(inputPropertyList);
+const unarchivedObject = new NSKeyedUnarchiver().unarchive(inputPropertyList);
 console.log(unarchivedObject);

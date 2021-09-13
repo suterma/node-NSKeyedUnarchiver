@@ -1,5 +1,5 @@
 /*** Mocks */
-var inputPropertyList = [
+const inputPropertyList = [
     {
         $version: 100000,
         $objects: [
@@ -4200,7 +4200,7 @@ var inputPropertyList = [
     },
 ];
 
-var expectedUnarchivedObject = [
+const expectedUnarchivedObject = [
     {
         Duration: 25.782857142857143,
         Name: "1. Save the Date                        (Teil 1) - PB",
@@ -5789,7 +5789,7 @@ var expectedUnarchivedObject = [
     },
 ];
 
-var inputPropertyListWithOtherArchiver = [
+const inputPropertyListWithOtherArchiver = [
     {
         $version: 100000,
         $objects: ["$null", ""],

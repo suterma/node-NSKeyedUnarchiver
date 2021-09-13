@@ -6,8 +6,8 @@ import { IDecodeable } from "./IDecodeable";
 export class ListArchive implements IDecodeable {
     /** @inheritdoc */
     decode_archive(archive_obj: ArchivedObject): any[] {
-        var uids = archive_obj.decode("NS.objects");
-        var decodedItems: any[] = [];
+        const uids = archive_obj.decode("NS.objects");
+        const decodedItems: any[] = [];
 
         uids.forEach((element: { UID: number }) => {
             const idx = element.UID;

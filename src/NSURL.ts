@@ -17,7 +17,7 @@ import { IDecodeable } from "./IDecodeable";
 export class NSURL implements IDecodeable {
     /** @inheritdoc */
     decode_archive(archive_obj: ArchivedObject): string {
-        var decodedUrl = {
+        const decodedUrl = {
             Relative: archive_obj.decode_index(
                 (archive_obj.object as any)["NS.relative"]?.UID
             ),

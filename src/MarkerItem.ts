@@ -17,7 +17,7 @@ import { IDecodeable } from "./IDecodeable";
 export class MarkerItem implements IDecodeable {
     /** @inheritdoc */
     decode_archive(archive_obj: ArchivedObject): any {
-        var decodedMarkerItem = {
+        const decodedMarkerItem = {
             Name: archive_obj.decode_index(
                 (archive_obj.object as any).MName.UID
             ),

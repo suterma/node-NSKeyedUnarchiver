@@ -8,11 +8,11 @@ import { IDecodeable } from "./IDecodeable";
 export class DictArchive implements IDecodeable {
     /** @inheritdoc */
     decode_archive(archive_obj: ArchivedObject): any {
-        var key_uids = archive_obj.decode("NS.keys");
-        var val_uids = archive_obj.decode("NS.objects");
+        const key_uids = archive_obj.decode("NS.keys");
+        const val_uids = archive_obj.decode("NS.objects");
 
-        var count: number = key_uids.length;
-        var d: { [id: number]: any } = {};
+        const count: number = key_uids.length;
+        const dict: { [id: number]: any } = {};
 
         for (const i in Array(count).keys()) {
             //TODO does this conversion work?
@@ -21,9 +21,9 @@ export class DictArchive implements IDecodeable {
 
             var key = archive_obj.decode_index(key_uids[idx]);
             var val = archive_obj.decode_index(val_uids[idx]);
-            d[key] = val;
+            dict[key] = val;
         }
 
-        return d;
+        return dict;
     }
 }

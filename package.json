@@ -1,6 +1,6 @@
 {
-    "name": "nskeyedunarchiver",
-    "version": "1.0.0",
+    "name": "nskeyedunarchiver-liveplayback",
+    "version": "0.1.0",
     "description": "A simple NSKeyedUnarchiver (implemented and tested only to work with data from the LivePlayback iOS App).",
     "main": "demo.js",
     "scripts": {
@@ -8,7 +8,7 @@
         "test": "jest"
     },
     "keywords": [
-        "NSCoder, NSKeyedUnarchiver"
+        "NSCoder, NSKeyedUnarchiver, LivePlayback"
     ],
     "author": "Marcel Suter (mail@marcelsuter.ch)",
     "license": "MIT",
