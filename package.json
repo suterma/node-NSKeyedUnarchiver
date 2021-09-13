@@ -2,7 +2,8 @@
     "name": "nskeyedunarchiver-liveplayback",
     "version": "0.1.0",
     "description": "A simple NSKeyedUnarchiver (implemented and tested only to work with data from the LivePlayback iOS App).",
-    "main": "demo.js",
+    "homepage": "https://github.com/suterma/node-NSKeyedUnarchiver-LivePlayback",
+    "main": "src/NSKeyedUnarchiver.ts",
     "scripts": {
         "build": "tsc",
         "test": "jest"
@@ -10,13 +11,25 @@
     "keywords": [
         "NSCoder, NSKeyedUnarchiver, LivePlayback"
     ],
-    "author": "Marcel Suter (mail@marcelsuter.ch)",
+    "author": {
+        "name": "Marcel Suter",
+        "email": "node-NSKeyedUnarchiver-LivePlayback@marcelsuter.ch",
+        "url": "https://marcelsuter.ch"
+    },
     "license": "MIT",
     "devDependencies": {
         "@types/jest": "^27.0.1",
         "@types/node": "^16.9.1",
+        "eslint": "^7.32.0",
         "jest": "^27.1.1",
         "ts-jest": "^27.0.5",
         "typescript": "^4.4.3"
+    },
+    "bugs": {
+        "url": "https://github.com/suterma/node-NSKeyedUnarchiver-LivePlayback/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/suterma/node-NSKeyedUnarchiver-LivePlayback.git"
     }
 }
