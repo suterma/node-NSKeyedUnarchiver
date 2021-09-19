@@ -1,20 +1,20 @@
 # node-nskeyedunarchiver-liveplayback
 
-A simple NSKeyedUnarchiver in Javascript. It is implemented and tested only to work with data from the [LivePlayback](https://apps.apple.com/us/app/liveplayback/id469746819) iOS App.
+A simple NSKeyedUnarchiver in Javascript, to unarchive [iOS property lists](https://en.wikipedia.org/wiki/Property_list). It is implemented and tested only to work with data from the [LivePlayback](https://apps.apple.com/us/app/liveplayback/id469746819) iOS App.
 
 ## Installation
 
 ```bash
-    $ npm install nskeyedunarchiver-liveplayback
+    $ npm i @suterma/nskeyedunarchiver-liveplayback
 ```
 
 ## Usage
 
-This unarchiver processes "object" property lists as provided by this [bplist-parser](https://github.com/joeferner/node-bplist-parser)
+This unarchiver processes property lists as provided e.g. by this [bplist-parser](https://github.com/joeferner/node-bplist-parser)
 
 ```javascript
     import NSKeyedUnarchiver from "nskeyedunarchiver-liveplayback";
-    const inputPropertyList ...; //as provided by bplist-parser
+    const inputPropertyList ...; //as provided e.g. by bplist-parser
     var unarchivedObject = new NSKeyedUnarchiver().unarchive(inputPropertyList);
     console.log(unarchivedObject);
 ```

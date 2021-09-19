@@ -1,6 +1,6 @@
 {
-    "name": "nskeyedunarchiver-liveplayback",
-    "version": "0.1.0",
+    "name": "@suterma/nskeyedunarchiver-liveplayback",
+    "version": "0.1.1",
     "description": "A simple NSKeyedUnarchiver (implemented and tested only to work with data from the LivePlayback iOS App).",
     "homepage": "https://github.com/suterma/node-NSKeyedUnarchiver-LivePlayback",
     "main": "source",
@@ -12,11 +12,7 @@
     "keywords": [
         "NSCoder, NSKeyedUnarchiver, LivePlayback"
     ],
-    "author": {
-        "name": "Marcel Suter",
-        "email": "node-NSKeyedUnarchiver-LivePlayback@marcelsuter.ch",
-        "url": "https://marcelsuter.ch"
-    },
+    "author": "Marcel Suter <node-NSKeyedUnarchiver-LivePlayback@marcelsuter.ch> (https://marcelsuter.ch)",
     "license": "MIT",
     "devDependencies": {
         "@types/jest": "^27.0.1",
@@ -31,6 +27,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/suterma/node-NSKeyedUnarchiver-LivePlayback.git"
+        "url": "git+https://github.com/suterma/node-NSKeyedUnarchiver-LivePlayback.git"
     }
 }
