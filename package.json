@@ -3,8 +3,8 @@
     "version": "0.1.0",
     "description": "A simple NSKeyedUnarchiver (implemented and tested only to work with data from the LivePlayback iOS App).",
     "homepage": "https://github.com/suterma/node-NSKeyedUnarchiver-LivePlayback",
-    "main": "./src/NSKeyedUnarchiver.js",
-    "types": "./src/NSKeyedUnarchiver.d.ts",
+    "main": "source",
+    "types": "source",
     "scripts": {
         "build": "tsc",
         "test": "jest"

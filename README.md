@@ -7,7 +7,7 @@ A simple NSKeyedUnarchiver (implemented and tested only to work with data from t
 This unarchiver processes "object" property lists as provided by this [bplist-parser](https://github.com/joeferner/node-bplist-parser)
 
 ```javascript
-    import NSKeyedUnarchiver from "./src/NSKeyedUnarchiver";
+    import NSKeyedUnarchiver from "./source/index";
     const inputPropertyList ...; //as provided by bplist-parser
     var unarchivedObject = new NSKeyedUnarchiver().unarchive(inputPropertyList);
     console.log(unarchivedObject);
