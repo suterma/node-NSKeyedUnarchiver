@@ -1,13 +1,19 @@
 # node-NSKeyedUnarchiver
 
-A simple NSKeyedUnarchiver (implemented and tested only to work with data from the [LivePlayback](https://apps.apple.com/us/app/liveplayback/id469746819) iOS App).
+A simple NSKeyedUnarchiver in Javascript. It is implemented and tested only to work with data from the [LivePlayback](https://apps.apple.com/us/app/liveplayback/id469746819) iOS App.
+
+## Installation
+
+```bash
+    $ npm install bplist-parser
+```
 
 ## Usage
 
 This unarchiver processes "object" property lists as provided by this [bplist-parser](https://github.com/joeferner/node-bplist-parser)
 
 ```javascript
-    import NSKeyedUnarchiver from "./source/index";
+    import NSKeyedUnarchiver from "nskeyedunarchiver-liveplayback";
     const inputPropertyList ...; //as provided by bplist-parser
     var unarchivedObject = new NSKeyedUnarchiver().unarchive(inputPropertyList);
     console.log(unarchivedObject);
