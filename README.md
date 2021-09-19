@@ -1,11 +1,11 @@
-# node-NSKeyedUnarchiver
+# node-nskeyedunarchiver-liveplayback
 
 A simple NSKeyedUnarchiver in Javascript. It is implemented and tested only to work with data from the [LivePlayback](https://apps.apple.com/us/app/liveplayback/id469746819) iOS App.
 
 ## Installation
 
 ```bash
-    $ npm install bplist-parser
+    $ npm install nskeyedunarchiver-liveplayback
 ```
 
 ## Usage
