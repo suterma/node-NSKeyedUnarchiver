@@ -1,16 +1,16 @@
-import { ArchivedObject } from "./ArchivedObject";
-import { CycleToken } from "./CycleToken";
-import { DictArchive } from "./DictArchive";
-import { ListArchive } from "./ListArchive";
-import { MarkerItem } from "./MarkerItem";
-import { NSURL } from "./NSURL";
-import { PlayListItem } from "./PlayListItem";
+import { ArchivedObject } from './ArchivedObject';
+import { CycleToken } from './CycleToken';
+import { DictArchive } from './DictArchive';
+import { ListArchive } from './ListArchive';
+import { MarkerItem } from './MarkerItem';
+import { NSURL } from './NSURL';
+import { PlayListItem } from './PlayListItem';
 
 /** The NULL UID, for convenience */
 const NULL_UID = 0;
 
 /** The name of the supported Archiver */
-const NSKeyedArchiver = "NSKeyedArchiver";
+const NSKeyedArchiver = 'NSKeyedArchiver';
 
 /** The version of the supported NSKeyedArchiver */
 const NSKeyedArchiveVersion = 100000;
@@ -53,29 +53,29 @@ export class Unarchiver implements IUnarchiver {
     unpack_archive_header() {
         const archiver = this.propertyList[0].$archiver as String;
         if (archiver != NSKeyedArchiver) {
-            throw new Error("UnsupportedArchiver(" + archiver + ")");
+            throw new Error('UnsupportedArchiver(' + archiver + ')');
         }
 
         const version = this.propertyList[0].$version as number;
         if (version != NSKeyedArchiveVersion) {
-            throw new Error("UnsupportedArchiveVersion(" + version + ")");
+            throw new Error('UnsupportedArchiveVersion(' + version + ')');
         }
 
         const top = this.propertyList[0].$top as any;
         if (top == undefined) {
-            throw new Error("MissingTopObject(" + top + ")");
+            throw new Error('MissingTopObject(' + top + ')');
         }
 
         const top_uid = top.root.UID;
         if (top_uid == undefined) {
-            throw new Error("MissingTopObjectUID(" + top_uid + ")");
+            throw new Error('MissingTopObjectUID(' + top_uid + ')');
         }
         this.top_uid = top_uid;
 
         this.objects = this.propertyList[0].$objects as any;
         if (this.objects == undefined) {
             throw new Error(
-                "MissingObjectsArray(" + this.propertyList[0] + ")"
+                'MissingObjectsArray(' + this.propertyList[0] + ')'
             );
         }
     }
@@ -124,7 +124,7 @@ export class Unarchiver implements IUnarchiver {
 
         const klass = new this.UNARCHIVE_CLASS_MAP[name]();
         if (klass == undefined) {
-            throw new Error("MissingClassMapping(name, UNARCHIVE_CLASS_MAP)");
+            throw new Error('MissingClassMapping(name, UNARCHIVE_CLASS_MAP)');
         }
 
         return klass;
@@ -149,7 +149,7 @@ export class Unarchiver implements IUnarchiver {
 
         let obj = this.unpacked_uids[index];
         if (obj == typeof CycleToken) {
-            throw new Error("CircularReference(index)");
+            throw new Error('CircularReference(index)');
         }
 
         //Is the object already unpacked?
@@ -172,7 +172,7 @@ export class Unarchiver implements IUnarchiver {
 
         const class_uid = raw_obj.$class.UID;
         if (class_uid === undefined) {
-            throw new Error("MissingClassUID(raw_obj)");
+            throw new Error('MissingClassUID(raw_obj)');
         }
 
         var klass = this.class_for_uid(class_uid);

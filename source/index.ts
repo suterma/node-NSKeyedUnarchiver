@@ -23,7 +23,7 @@ interface INSKeyedUnarchiver {
  */
 export default class NSKeyedUnarchiver implements INSKeyedUnarchiver {
     /** @inheritdoc */
-    unarchive(propertyList: any[]): any {
+    public unarchive(propertyList: any[]): any {
         const unarchiver = new Unarchiver(propertyList);
         return unarchiver.top_object();
     }

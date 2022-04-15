@@ -3,9 +3,9 @@ const inputPropertyList = [
     {
         $version: 100000,
         $objects: [
-            "$null",
+            '$null',
             {
-                "NS.objects": [
+                'NS.objects': [
                     { UID: 2 },
                     { UID: 22 },
                     { UID: 42 },
@@ -51,21 +51,21 @@ const inputPropertyList = [
                 TPath: { UID: 3 },
             },
             {
-                "NS.base": { UID: 4 },
+                'NS.base': { UID: 4 },
                 $class: { UID: 6 },
-                "NS.relative": { UID: 7 },
+                'NS.relative': { UID: 7 },
             },
             {
-                "NS.base": { UID: 0 },
+                'NS.base': { UID: 0 },
                 $class: { UID: 6 },
-                "NS.relative": { UID: 5 },
+                'NS.relative': { UID: 5 },
             },
-            "file:///Users/Regie1/Desktop/Junior21.playbackPack/",
-            { $classname: "NSURL", $classes: ["NSURL", "NSObject"] },
-            "01%20-%20Save%20the%20Date%20(Teil%201)%20%20-%20PLAYBACKVERSION.mp3",
-            "1. Save the Date                        (Teil 1) - PB",
+            'file:///Users/Regie1/Desktop/Junior21.playbackPack/',
+            { $classname: 'NSURL', $classes: ['NSURL', 'NSObject'] },
+            '01%20-%20Save%20the%20Date%20(Teil%201)%20%20-%20PLAYBACKVERSION.mp3',
+            '1. Save the Date                        (Teil 1) - PB',
             25.782857142857143,
-            { "NS.objects": [{ UID: 11 }], $class: { UID: 17 } },
+            { 'NS.objects': [{ UID: 11 }], $class: { UID: 17 } },
             {
                 MName: { UID: 13 },
                 MPosition: { UID: 12 },
@@ -75,21 +75,21 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             0,
-            "Chorus Instrumental",
+            'Chorus Instrumental',
             10,
             false,
             {
-                $classname: "MarkerItem",
-                $classes: ["MarkerItem", "NSObject"],
+                $classname: 'MarkerItem',
+                $classes: ['MarkerItem', 'NSObject'],
             },
             {
-                $classname: "NSMutableArray",
-                $classes: ["NSMutableArray", "NSArray", "NSObject"],
+                $classname: 'NSMutableArray',
+                $classes: ['NSMutableArray', 'NSArray', 'NSObject'],
             },
             0,
             {
-                "NS.data": {
-                    type: "Buffer",
+                'NS.data': {
+                    type: 'Buffer',
                     data: [
                         98, 111, 111, 107, 96, 3, 0, 0, 0, 0, 4, 16, 48, 0, 0,
                         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -149,12 +149,12 @@ const inputPropertyList = [
                 $class: { UID: 20 },
             },
             {
-                $classname: "NSMutableData",
-                $classes: ["NSMutableData", "NSData", "NSObject"],
+                $classname: 'NSMutableData',
+                $classes: ['NSMutableData', 'NSData', 'NSObject'],
             },
             {
-                $classname: "PlayListItem",
-                $classes: ["PlayListItem", "NSObject"],
+                $classname: 'PlayListItem',
+                $classes: ['PlayListItem', 'NSObject'],
             },
             {
                 $class: { UID: 21 },
@@ -166,21 +166,21 @@ const inputPropertyList = [
                 TPath: { UID: 23 },
             },
             {
-                "NS.base": { UID: 24 },
+                'NS.base': { UID: 24 },
                 $class: { UID: 6 },
-                "NS.relative": { UID: 26 },
+                'NS.relative': { UID: 26 },
             },
             {
-                "NS.base": { UID: 0 },
+                'NS.base': { UID: 0 },
                 $class: { UID: 6 },
-                "NS.relative": { UID: 25 },
+                'NS.relative': { UID: 25 },
             },
-            "file:///Users/Regie1/Desktop/Junior21.playbackPack/",
-            "02%20-%20Save%20the%20Date%20(Teil%202)%20Konzertintro%20-%20HALBPLAYBACKVERSION.mp3",
-            "2. Save the Date (Teil 2)        PB mit Konzertintro",
+            'file:///Users/Regie1/Desktop/Junior21.playbackPack/',
+            '02%20-%20Save%20the%20Date%20(Teil%202)%20Konzertintro%20-%20HALBPLAYBACKVERSION.mp3',
+            '2. Save the Date (Teil 2)        PB mit Konzertintro',
             83.17387755102041,
             {
-                "NS.objects": [{ UID: 30 }, { UID: 33 }, { UID: 37 }],
+                'NS.objects': [{ UID: 30 }, { UID: 33 }, { UID: 37 }],
                 $class: { UID: 17 },
             },
             {
@@ -191,7 +191,7 @@ const inputPropertyList = [
                 prerollEnabled: { UID: 15 },
                 $class: { UID: 16 },
             },
-            "Chorus Instrumental Extended",
+            'Chorus Instrumental Extended',
             20,
             {
                 MName: { UID: 35 },
@@ -202,7 +202,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             36.8,
-            "Chorus Instrumental",
+            'Chorus Instrumental',
             21,
             {
                 MName: { UID: 39 },
@@ -213,11 +213,11 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             55.3,
-            "Chorus (einstimmig)",
+            'Chorus (einstimmig)',
             22,
             {
-                "NS.data": {
-                    type: "Buffer",
+                'NS.data': {
+                    type: 'Buffer',
                     data: [
                         98, 111, 111, 107, 112, 3, 0, 0, 0, 0, 4, 16, 48, 0, 0,
                         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -288,21 +288,21 @@ const inputPropertyList = [
                 TPath: { UID: 43 },
             },
             {
-                "NS.base": { UID: 44 },
+                'NS.base': { UID: 44 },
                 $class: { UID: 6 },
-                "NS.relative": { UID: 46 },
+                'NS.relative': { UID: 46 },
             },
             {
-                "NS.base": { UID: 0 },
+                'NS.base': { UID: 0 },
                 $class: { UID: 6 },
-                "NS.relative": { UID: 45 },
+                'NS.relative': { UID: 45 },
             },
-            "file:///Users/Regie1/Desktop/Junior21.playbackPack/",
-            "03%20-%20Save%20the%20Date%20(Teil%203)%20-%20PLAYBACKVERSION.mp3",
-            "3. Save the Date (Teil 3) - PB",
+            'file:///Users/Regie1/Desktop/Junior21.playbackPack/',
+            '03%20-%20Save%20the%20Date%20(Teil%203)%20-%20PLAYBACKVERSION.mp3',
+            '3. Save the Date (Teil 3) - PB',
             99.84,
             {
-                "NS.objects": [
+                'NS.objects': [
                     { UID: 50 },
                     { UID: 53 },
                     { UID: 57 },
@@ -319,7 +319,7 @@ const inputPropertyList = [
                 prerollEnabled: { UID: 15 },
                 $class: { UID: 16 },
             },
-            "Chorus (1)",
+            'Chorus (1)',
             30,
             {
                 MName: { UID: 55 },
@@ -330,7 +330,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             16.7,
-            "Vers (1) Solo + Chor / Alt / Tenor",
+            'Vers (1) Solo + Chor / Alt / Tenor',
             31,
             {
                 MName: { UID: 59 },
@@ -341,7 +341,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             33,
-            "Chorus (2) Alt / Tenor",
+            'Chorus (2) Alt / Tenor',
             32,
             {
                 MName: { UID: 63 },
@@ -352,7 +352,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             51.2,
-            "Vers (2) Alt / Tenor",
+            'Vers (2) Alt / Tenor',
             33,
             {
                 MName: { UID: 67 },
@@ -363,11 +363,11 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             67.5,
-            "Chorus (3) Alt / Tenor",
+            'Chorus (3) Alt / Tenor',
             34,
             {
-                "NS.data": {
-                    type: "Buffer",
+                'NS.data': {
+                    type: 'Buffer',
                     data: [
                         98, 111, 111, 107, 96, 3, 0, 0, 0, 0, 4, 16, 48, 0, 0,
                         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -436,21 +436,21 @@ const inputPropertyList = [
                 TPath: { UID: 71 },
             },
             {
-                "NS.base": { UID: 72 },
+                'NS.base': { UID: 72 },
                 $class: { UID: 6 },
-                "NS.relative": { UID: 74 },
+                'NS.relative': { UID: 74 },
             },
             {
-                "NS.base": { UID: 0 },
+                'NS.base': { UID: 0 },
                 $class: { UID: 6 },
-                "NS.relative": { UID: 73 },
+                'NS.relative': { UID: 73 },
             },
-            "file:///Users/Regie1/Desktop/Junior21.playbackPack/",
+            'file:///Users/Regie1/Desktop/Junior21.playbackPack/',
             "04%20-%20D'Party%20stiigt%20-%20PLAYBACKVERSION.mp3",
             "4. D'Party stiigt - PB",
             195.10857142857142,
             {
-                "NS.objects": [
+                'NS.objects': [
                     { UID: 78 },
                     { UID: 81 },
                     { UID: 85 },
@@ -469,7 +469,7 @@ const inputPropertyList = [
                 prerollEnabled: { UID: 15 },
                 $class: { UID: 16 },
             },
-            "Intro",
+            'Intro',
             40,
             {
                 MName: { UID: 83 },
@@ -480,7 +480,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             8.9,
-            "Vers (1)",
+            'Vers (1)',
             41,
             {
                 MName: { UID: 87 },
@@ -491,7 +491,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             36.2,
-            "Chorus (1) Alt / Tenor",
+            'Chorus (1) Alt / Tenor',
             42,
             {
                 MName: { UID: 91 },
@@ -502,7 +502,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             66.7,
-            "Vers (2) Solo",
+            'Vers (2) Solo',
             43,
             {
                 MName: { UID: 95 },
@@ -513,7 +513,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             94,
-            "Chorus (2) Alt / Tenor",
+            'Chorus (2) Alt / Tenor',
             44,
             {
                 MName: { UID: 99 },
@@ -524,7 +524,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             124.3,
-            "Bridge Alt / Tenor",
+            'Bridge Alt / Tenor',
             45,
             {
                 MName: { UID: 103 },
@@ -535,11 +535,11 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             151.7,
-            "Chorus (3) Alt / Tenor",
+            'Chorus (3) Alt / Tenor',
             46,
             {
-                "NS.data": {
-                    type: "Buffer",
+                'NS.data': {
+                    type: 'Buffer',
                     data: [
                         98, 111, 111, 107, 88, 3, 0, 0, 0, 0, 4, 16, 48, 0, 0,
                         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -608,21 +608,21 @@ const inputPropertyList = [
                 TPath: { UID: 107 },
             },
             {
-                "NS.base": { UID: 108 },
+                'NS.base': { UID: 108 },
                 $class: { UID: 6 },
-                "NS.relative": { UID: 110 },
+                'NS.relative': { UID: 110 },
             },
             {
-                "NS.base": { UID: 0 },
+                'NS.base': { UID: 0 },
                 $class: { UID: 6 },
-                "NS.relative": { UID: 109 },
+                'NS.relative': { UID: 109 },
             },
-            "file:///Users/Regie1/Desktop/Junior21.playbackPack/",
-            "05%20-%20Absag%20-%20PLAYBACKVERSION.mp3",
-            "5. Absag - PB",
+            'file:///Users/Regie1/Desktop/Junior21.playbackPack/',
+            '05%20-%20Absag%20-%20PLAYBACKVERSION.mp3',
+            '5. Absag - PB',
             152.16326530612244,
             {
-                "NS.objects": [
+                'NS.objects': [
                     { UID: 114 },
                     { UID: 117 },
                     { UID: 121 },
@@ -640,7 +640,7 @@ const inputPropertyList = [
                 prerollEnabled: { UID: 15 },
                 $class: { UID: 16 },
             },
-            "Intro (1)",
+            'Intro (1)',
             50,
             {
                 MName: { UID: 119 },
@@ -651,7 +651,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             4.6,
-            "Vers 1 + Transition",
+            'Vers 1 + Transition',
             51,
             {
                 MName: { UID: 123 },
@@ -662,7 +662,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             33.3,
-            "Chorus 1 Alt / Tenor",
+            'Chorus 1 Alt / Tenor',
             52,
             {
                 MName: { UID: 127 },
@@ -673,7 +673,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             74.5,
-            "Intro (2)",
+            'Intro (2)',
             53,
             {
                 MName: { UID: 131 },
@@ -684,7 +684,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             78.1,
-            "Vers 2 + Transition",
+            'Vers 2 + Transition',
             54,
             {
                 MName: { UID: 135 },
@@ -695,11 +695,11 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             106.7,
-            "Chorus 2 Alt / Tenor",
+            'Chorus 2 Alt / Tenor',
             55,
             {
-                "NS.data": {
-                    type: "Buffer",
+                'NS.data': {
+                    type: 'Buffer',
                     data: [
                         98, 111, 111, 107, 76, 3, 0, 0, 0, 0, 4, 16, 48, 0, 0,
                         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -767,21 +767,21 @@ const inputPropertyList = [
                 TPath: { UID: 139 },
             },
             {
-                "NS.base": { UID: 140 },
+                'NS.base': { UID: 140 },
                 $class: { UID: 6 },
-                "NS.relative": { UID: 142 },
+                'NS.relative': { UID: 142 },
             },
             {
-                "NS.base": { UID: 0 },
+                'NS.base': { UID: 0 },
                 $class: { UID: 6 },
-                "NS.relative": { UID: 141 },
+                'NS.relative': { UID: 141 },
             },
-            "file:///Users/Regie1/Desktop/Junior21.playbackPack/",
-            "06%20-%20Terminkollision%20-%20PLAYBACKVERSION.mp3",
-            "6. Terminkollision - PB",
+            'file:///Users/Regie1/Desktop/Junior21.playbackPack/',
+            '06%20-%20Terminkollision%20-%20PLAYBACKVERSION.mp3',
+            '6. Terminkollision - PB',
             136.0457142857143,
             {
-                "NS.objects": [
+                'NS.objects': [
                     { UID: 146 },
                     { UID: 149 },
                     { UID: 153 },
@@ -800,7 +800,7 @@ const inputPropertyList = [
                 prerollEnabled: { UID: 15 },
                 $class: { UID: 16 },
             },
-            "Intro (1)",
+            'Intro (1)',
             60,
             {
                 MName: { UID: 151 },
@@ -811,7 +811,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             3.7,
-            "Vers (1)",
+            'Vers (1)',
             61,
             {
                 MName: { UID: 155 },
@@ -822,7 +822,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             31.5,
-            "Chorus (1) Alt / Tenor",
+            'Chorus (1) Alt / Tenor',
             62,
             {
                 MName: { UID: 159 },
@@ -833,7 +833,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             62.1,
-            "Intro (2)",
+            'Intro (2)',
             63,
             {
                 MName: { UID: 163 },
@@ -844,7 +844,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             66.4,
-            "Vers (2)",
+            'Vers (2)',
             64,
             {
                 MName: { UID: 167 },
@@ -855,7 +855,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             94.2,
-            "Chorus (2) Alt / Tenor",
+            'Chorus (2) Alt / Tenor',
             65,
             {
                 MName: { UID: 171 },
@@ -866,11 +866,11 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             124.9,
-            "Intro (3)",
+            'Intro (3)',
             66,
             {
-                "NS.data": {
-                    type: "Buffer",
+                'NS.data': {
+                    type: 'Buffer',
                     data: [
                         98, 111, 111, 107, 88, 3, 0, 0, 0, 0, 4, 16, 48, 0, 0,
                         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -939,21 +939,21 @@ const inputPropertyList = [
                 TPath: { UID: 175 },
             },
             {
-                "NS.base": { UID: 176 },
+                'NS.base': { UID: 176 },
                 $class: { UID: 6 },
-                "NS.relative": { UID: 178 },
+                'NS.relative': { UID: 178 },
             },
             {
-                "NS.base": { UID: 0 },
+                'NS.base': { UID: 0 },
                 $class: { UID: 6 },
-                "NS.relative": { UID: 177 },
+                'NS.relative': { UID: 177 },
             },
-            "file:///Users/Regie1/Desktop/Junior21.playbackPack/",
+            'file:///Users/Regie1/Desktop/Junior21.playbackPack/',
             "07%20-%20Wie%20so%CC%88lled%20mir's%20ihm%20sa%CC%88ge%20-%20HALBPLAYBACKVERSION.mp3",
             "7. Wie sölled mir's ihm säge - HALB-PB",
             178.72979591836736,
             {
-                "NS.objects": [
+                'NS.objects': [
                     { UID: 182 },
                     { UID: 184 },
                     { UID: 188 },
@@ -985,7 +985,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             8.8,
-            "Vers (1)",
+            'Vers (1)',
             71,
             {
                 MName: { UID: 190 },
@@ -996,7 +996,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             32.2,
-            "Chorus (1) (Alt / Tenor)",
+            'Chorus (1) (Alt / Tenor)',
             72,
             {
                 MName: { UID: 194 },
@@ -1007,7 +1007,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             58.6,
-            "Interlude 1 (1)",
+            'Interlude 1 (1)',
             73,
             {
                 MName: { UID: 198 },
@@ -1018,7 +1018,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             61.6,
-            "Vers 2 Solo",
+            'Vers 2 Solo',
             74,
             {
                 MName: { UID: 202 },
@@ -1029,7 +1029,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             85,
-            "Chorus (2) (Alt / Tenor)",
+            'Chorus (2) (Alt / Tenor)',
             75,
             {
                 MName: { UID: 206 },
@@ -1040,7 +1040,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             111.3,
-            "Interlude 2",
+            'Interlude 2',
             76,
             {
                 MName: { UID: 210 },
@@ -1051,7 +1051,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             117,
-            "Bridge",
+            'Bridge',
             77,
             {
                 MName: { UID: 214 },
@@ -1062,7 +1062,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             140.6,
-            "Chorus (3) (Alt / Tenor)",
+            'Chorus (3) (Alt / Tenor)',
             78,
             {
                 MName: { UID: 218 },
@@ -1073,11 +1073,11 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             169.8,
-            "Interlude 1 (2)",
+            'Interlude 1 (2)',
             79,
             {
-                "NS.data": {
-                    type: "Buffer",
+                'NS.data': {
+                    type: 'Buffer',
                     data: [
                         98, 111, 111, 107, 104, 3, 0, 0, 0, 0, 4, 16, 48, 0, 0,
                         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -1147,21 +1147,21 @@ const inputPropertyList = [
                 TPath: { UID: 222 },
             },
             {
-                "NS.base": { UID: 223 },
+                'NS.base': { UID: 223 },
                 $class: { UID: 6 },
-                "NS.relative": { UID: 225 },
+                'NS.relative': { UID: 225 },
             },
             {
-                "NS.base": { UID: 0 },
+                'NS.base': { UID: 0 },
                 $class: { UID: 6 },
-                "NS.relative": { UID: 224 },
+                'NS.relative': { UID: 224 },
             },
-            "file:///Users/Regie1/Desktop/Junior21.playbackPack/",
-            "08%20-%20Gar%20nid%20guet%20-%20HALBPLAYBACKVERSION.mp3",
-            "8. Gar nid guet - HALB-PB",
+            'file:///Users/Regie1/Desktop/Junior21.playbackPack/',
+            '08%20-%20Gar%20nid%20guet%20-%20HALBPLAYBACKVERSION.mp3',
+            '8. Gar nid guet - HALB-PB',
             128.49632653061224,
             {
-                "NS.objects": [
+                'NS.objects': [
                     { UID: 229 },
                     { UID: 231 },
                     { UID: 235 },
@@ -1193,7 +1193,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             4.6,
-            "Chorus (1)",
+            'Chorus (1)',
             81,
             {
                 MName: { UID: 237 },
@@ -1204,7 +1204,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             19.4,
-            "Vers (1)",
+            'Vers (1)',
             82,
             {
                 MName: { UID: 241 },
@@ -1215,7 +1215,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             34.2,
-            "Chorus (2) (Alt / Tenor)",
+            'Chorus (2) (Alt / Tenor)',
             83,
             {
                 MName: { UID: 245 },
@@ -1226,7 +1226,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             49,
-            "Vers 2 Solo",
+            'Vers 2 Solo',
             84,
             {
                 MName: { UID: 249 },
@@ -1237,7 +1237,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             66.7,
-            "Interlude",
+            'Interlude',
             85,
             {
                 MName: { UID: 253 },
@@ -1248,7 +1248,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             71.1,
-            "Vers (3)",
+            'Vers (3)',
             86,
             {
                 MName: { UID: 257 },
@@ -1259,7 +1259,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             85.8,
-            "Chorus (3) (ab Hälfte + Alt)",
+            'Chorus (3) (ab Hälfte + Alt)',
             87,
             {
                 MName: { UID: 261 },
@@ -1270,7 +1270,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             100.7,
-            "Chorus (4) (Alt + Tenor)",
+            'Chorus (4) (Alt + Tenor)',
             88,
             {
                 MName: { UID: 265 },
@@ -1281,11 +1281,11 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             115.4,
-            "Coda (Alt + Tenor)",
+            'Coda (Alt + Tenor)',
             89,
             {
-                "NS.data": {
-                    type: "Buffer",
+                'NS.data': {
+                    type: 'Buffer',
                     data: [
                         98, 111, 111, 107, 88, 3, 0, 0, 0, 0, 4, 16, 48, 0, 0,
                         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -1354,21 +1354,21 @@ const inputPropertyList = [
                 TPath: { UID: 269 },
             },
             {
-                "NS.base": { UID: 270 },
+                'NS.base': { UID: 270 },
                 $class: { UID: 6 },
-                "NS.relative": { UID: 272 },
+                'NS.relative': { UID: 272 },
             },
             {
-                "NS.base": { UID: 0 },
+                'NS.base': { UID: 0 },
                 $class: { UID: 6 },
-                "NS.relative": { UID: 271 },
+                'NS.relative': { UID: 271 },
             },
-            "file:///Users/Regie1/Desktop/Junior21.playbackPack/",
-            "09%20-%20Good%20News%20-%20PLAYBACKVERSION.mp3",
-            "9. Good News - PB",
+            'file:///Users/Regie1/Desktop/Junior21.playbackPack/',
+            '09%20-%20Good%20News%20-%20PLAYBACKVERSION.mp3',
+            '9. Good News - PB',
             144.24816326530612,
             {
-                "NS.objects": [
+                'NS.objects': [
                     { UID: 276 },
                     { UID: 278 },
                     { UID: 282 },
@@ -1398,7 +1398,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             5.1,
-            "Vers 1 Solo",
+            'Vers 1 Solo',
             91,
             {
                 MName: { UID: 284 },
@@ -1409,7 +1409,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             25.4,
-            "Vers 2",
+            'Vers 2',
             92,
             {
                 MName: { UID: 288 },
@@ -1420,7 +1420,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             45.5,
-            "Chorus (1) Tenor",
+            'Chorus (1) Tenor',
             93,
             {
                 MName: { UID: 292 },
@@ -1431,7 +1431,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             65.7,
-            "Vers 3",
+            'Vers 3',
             94,
             {
                 MName: { UID: 296 },
@@ -1442,7 +1442,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             86,
-            "Chorus (2) Alt / Tenor",
+            'Chorus (2) Alt / Tenor',
             95,
             {
                 MName: { UID: 300 },
@@ -1464,11 +1464,11 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             116.4,
-            "Chorus (3) Alt / Tenor",
+            'Chorus (3) Alt / Tenor',
             97,
             {
-                "NS.data": {
-                    type: "Buffer",
+                'NS.data': {
+                    type: 'Buffer',
                     data: [
                         98, 111, 111, 107, 80, 3, 0, 0, 0, 0, 4, 16, 48, 0, 0,
                         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -1536,21 +1536,21 @@ const inputPropertyList = [
                 TPath: { UID: 308 },
             },
             {
-                "NS.base": { UID: 309 },
+                'NS.base': { UID: 309 },
                 $class: { UID: 6 },
-                "NS.relative": { UID: 311 },
+                'NS.relative': { UID: 311 },
             },
             {
-                "NS.base": { UID: 0 },
+                'NS.base': { UID: 0 },
                 $class: { UID: 6 },
-                "NS.relative": { UID: 310 },
+                'NS.relative': { UID: 310 },
             },
-            "file:///Users/Regie1/Desktop/Junior21.playbackPack/",
-            "10%20-%20Gott%20ladet%20alli%20Mensche%20ii%20-%20HALBPLAYBACKVERSION.mp3",
-            "10. Gott ladet alli Mensche ii - HALB-PB",
+            'file:///Users/Regie1/Desktop/Junior21.playbackPack/',
+            '10%20-%20Gott%20ladet%20alli%20Mensche%20ii%20-%20HALBPLAYBACKVERSION.mp3',
+            '10. Gott ladet alli Mensche ii - HALB-PB',
             210.72979591836736,
             {
-                "NS.objects": [
+                'NS.objects': [
                     { UID: 315 },
                     { UID: 317 },
                     { UID: 321 },
@@ -1581,7 +1581,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             7.3,
-            "Chorus (1) Solo",
+            'Chorus (1) Solo',
             101,
             {
                 MName: { UID: 323 },
@@ -1592,7 +1592,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             40.4,
-            "Vers 1 Solo",
+            'Vers 1 Solo',
             102,
             {
                 MName: { UID: 327 },
@@ -1603,7 +1603,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             60.6,
-            "Chorus (2)",
+            'Chorus (2)',
             103,
             {
                 MName: { UID: 284 },
@@ -1624,7 +1624,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             110.6,
-            "Bridge (Alt + Tenor)",
+            'Bridge (Alt + Tenor)',
             105,
             {
                 MName: { UID: 292 },
@@ -1656,11 +1656,11 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             183.8,
-            "Coda",
+            'Coda',
             108,
             {
-                "NS.data": {
-                    type: "Buffer",
+                'NS.data': {
+                    type: 'Buffer',
                     data: [
                         98, 111, 111, 107, 104, 3, 0, 0, 0, 0, 4, 16, 48, 0, 0,
                         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -1730,21 +1730,21 @@ const inputPropertyList = [
                 TPath: { UID: 349 },
             },
             {
-                "NS.base": { UID: 350 },
+                'NS.base': { UID: 350 },
                 $class: { UID: 6 },
-                "NS.relative": { UID: 352 },
+                'NS.relative': { UID: 352 },
             },
             {
-                "NS.base": { UID: 0 },
+                'NS.base': { UID: 0 },
                 $class: { UID: 6 },
-                "NS.relative": { UID: 351 },
+                'NS.relative': { UID: 351 },
             },
-            "file:///Users/Regie1/Desktop/Junior21.playbackPack/",
+            'file:///Users/Regie1/Desktop/Junior21.playbackPack/',
             "11%20-%20S'het%20no%20Platz%20-%20PLAYBACKVERSION.mp3",
             "11. S'het no Platz - PB",
             163.63102040816327,
             {
-                "NS.objects": [
+                'NS.objects': [
                     { UID: 356 },
                     { UID: 358 },
                     { UID: 362 },
@@ -1776,7 +1776,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             10.6,
-            "Vers 1",
+            'Vers 1',
             111,
             {
                 MName: { UID: 364 },
@@ -1787,7 +1787,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             22,
-            "Pre-Chorus (1)",
+            'Pre-Chorus (1)',
             112,
             {
                 MName: { UID: 368 },
@@ -1798,7 +1798,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             30.2,
-            "Chorus (1)-1 Solo",
+            'Chorus (1)-1 Solo',
             113,
             {
                 MName: { UID: 372 },
@@ -1809,7 +1809,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             56.9,
-            "Chorus (1)-2 Solo",
+            'Chorus (1)-2 Solo',
             114,
             {
                 MName: { UID: 249 },
@@ -1840,7 +1840,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             95.9,
-            "Pre-Chorus (2)",
+            'Pre-Chorus (2)',
             117,
             {
                 MName: { UID: 386 },
@@ -1864,8 +1864,8 @@ const inputPropertyList = [
             138.7,
             119,
             {
-                "NS.data": {
-                    type: "Buffer",
+                'NS.data': {
+                    type: 'Buffer',
                     data: [
                         98, 111, 111, 107, 88, 3, 0, 0, 0, 0, 4, 16, 48, 0, 0,
                         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -1934,21 +1934,21 @@ const inputPropertyList = [
                 TPath: { UID: 393 },
             },
             {
-                "NS.base": { UID: 394 },
+                'NS.base': { UID: 394 },
                 $class: { UID: 6 },
-                "NS.relative": { UID: 396 },
+                'NS.relative': { UID: 396 },
             },
             {
-                "NS.base": { UID: 0 },
+                'NS.base': { UID: 0 },
                 $class: { UID: 6 },
-                "NS.relative": { UID: 395 },
+                'NS.relative': { UID: 395 },
             },
-            "file:///Users/Regie1/Desktop/Junior21.playbackPack/",
-            "12%20-%20Freude%20herrscht%20-%20PLAYBACKVERSION.mp3",
-            "12. Freude herrscht - PB",
+            'file:///Users/Regie1/Desktop/Junior21.playbackPack/',
+            '12%20-%20Freude%20herrscht%20-%20PLAYBACKVERSION.mp3',
+            '12. Freude herrscht - PB',
             159.26857142857142,
             {
-                "NS.objects": [
+                'NS.objects': [
                     { UID: 400 },
                     { UID: 402 },
                     { UID: 405 },
@@ -1988,7 +1988,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             25.5,
-            "Pre-Chorus (1)",
+            'Pre-Chorus (1)',
             122,
             {
                 MName: { UID: 411 },
@@ -1999,7 +1999,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             36.9,
-            "Chorus (1) Alt / Tenor",
+            'Chorus (1) Alt / Tenor',
             123,
             {
                 MName: { UID: 284 },
@@ -2020,7 +2020,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             79.8,
-            "Pre-Chorus (2)",
+            'Pre-Chorus (2)',
             125,
             {
                 MName: { UID: 422 },
@@ -2031,7 +2031,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             91.2,
-            "Chorus (2) Alt / Tenor",
+            'Chorus (2) Alt / Tenor',
             126,
             {
                 MName: { UID: 426 },
@@ -2042,11 +2042,11 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             118.4,
-            "Chorus (3) Alt / Tenor",
+            'Chorus (3) Alt / Tenor',
             127,
             {
-                "NS.data": {
-                    type: "Buffer",
+                'NS.data': {
+                    type: 'Buffer',
                     data: [
                         98, 111, 111, 107, 88, 3, 0, 0, 0, 0, 4, 16, 48, 0, 0,
                         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -2115,21 +2115,21 @@ const inputPropertyList = [
                 TPath: { UID: 430 },
             },
             {
-                "NS.base": { UID: 431 },
+                'NS.base': { UID: 431 },
                 $class: { UID: 6 },
-                "NS.relative": { UID: 433 },
+                'NS.relative': { UID: 433 },
             },
             {
-                "NS.base": { UID: 0 },
+                'NS.base': { UID: 0 },
                 $class: { UID: 6 },
-                "NS.relative": { UID: 432 },
+                'NS.relative': { UID: 432 },
             },
-            "file:///Users/Regie1/Desktop/Junior21.playbackPack/",
-            "13%20-%20Mir%20danked%20dir%20-%20PLAYBACKVERSION.mp3",
-            "13. Mir danked dir - PB",
+            'file:///Users/Regie1/Desktop/Junior21.playbackPack/',
+            '13%20-%20Mir%20danked%20dir%20-%20PLAYBACKVERSION.mp3',
+            '13. Mir danked dir - PB',
             140.8522448979592,
             {
-                "NS.objects": [
+                'NS.objects': [
                     { UID: 437 },
                     { UID: 439 },
                     { UID: 443 },
@@ -2160,7 +2160,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             4.7,
-            "Vers 1 Solo",
+            'Vers 1 Solo',
             131,
             {
                 MName: { UID: 445 },
@@ -2171,7 +2171,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             22.7,
-            "Vers 2 Solo + Chor",
+            'Vers 2 Solo + Chor',
             132,
             {
                 MName: { UID: 292 },
@@ -2192,7 +2192,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             58.7,
-            "Vers 4 Alt / Tenor",
+            'Vers 4 Alt / Tenor',
             134,
             {
                 MName: { UID: 249 },
@@ -2213,7 +2213,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             92.8,
-            "Chorus 5 Alt / Tenor",
+            'Chorus 5 Alt / Tenor',
             136,
             {
                 MName: { UID: 463 },
@@ -2224,7 +2224,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             108.6,
-            "Chorus 6 Alt / Tenor",
+            'Chorus 6 Alt / Tenor',
             137,
             {
                 MName: { UID: 467 },
@@ -2235,11 +2235,11 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             126.7,
-            "Outro",
+            'Outro',
             138,
             {
-                "NS.data": {
-                    type: "Buffer",
+                'NS.data': {
+                    type: 'Buffer',
                     data: [
                         98, 111, 111, 107, 88, 3, 0, 0, 0, 0, 4, 16, 48, 0, 0,
                         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -2308,21 +2308,21 @@ const inputPropertyList = [
                 TPath: { UID: 471 },
             },
             {
-                "NS.base": { UID: 472 },
+                'NS.base': { UID: 472 },
                 $class: { UID: 6 },
-                "NS.relative": { UID: 474 },
+                'NS.relative': { UID: 474 },
             },
             {
-                "NS.base": { UID: 0 },
+                'NS.base': { UID: 0 },
                 $class: { UID: 6 },
-                "NS.relative": { UID: 473 },
+                'NS.relative': { UID: 473 },
             },
-            "file:///Users/Regie1/Desktop/Junior21.playbackPack/",
-            "14%20-%20Voller%20Gnad%20-%20HALBPLAYBACKVERSION.mp3",
-            "14. Voller Gnad - HALB-PB",
+            'file:///Users/Regie1/Desktop/Junior21.playbackPack/',
+            '14%20-%20Voller%20Gnad%20-%20HALBPLAYBACKVERSION.mp3',
+            '14. Voller Gnad - HALB-PB',
             211.40897959183673,
             {
-                "NS.objects": [
+                'NS.objects': [
                     { UID: 478 },
                     { UID: 480 },
                     { UID: 484 },
@@ -2352,7 +2352,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             10.5,
-            "Chorus (1)",
+            'Chorus (1)',
             141,
             {
                 MName: { UID: 360 },
@@ -2373,7 +2373,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             74.8,
-            "Chorus (2) (Alt / Tenor)",
+            'Chorus (2) (Alt / Tenor)',
             143,
             {
                 MName: { UID: 284 },
@@ -2405,7 +2405,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             154.5,
-            "Chorus (4) (Alt / Tenor)",
+            'Chorus (4) (Alt / Tenor)',
             146,
             {
                 MName: { UID: 504 },
@@ -2416,11 +2416,11 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             186.8,
-            "Coda (Alt / Tenor)",
+            'Coda (Alt / Tenor)',
             147,
             {
-                "NS.data": {
-                    type: "Buffer",
+                'NS.data': {
+                    type: 'Buffer',
                     data: [
                         98, 111, 111, 107, 88, 3, 0, 0, 0, 0, 4, 16, 48, 0, 0,
                         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -2489,21 +2489,21 @@ const inputPropertyList = [
                 TPath: { UID: 508 },
             },
             {
-                "NS.base": { UID: 509 },
+                'NS.base': { UID: 509 },
                 $class: { UID: 6 },
-                "NS.relative": { UID: 511 },
+                'NS.relative': { UID: 511 },
             },
             {
-                "NS.base": { UID: 0 },
+                'NS.base': { UID: 0 },
                 $class: { UID: 6 },
-                "NS.relative": { UID: 510 },
+                'NS.relative': { UID: 510 },
             },
-            "file:///Users/Regie1/Desktop/Junior21.playbackPack/",
-            "15%20-%20Bescha%CC%88nkt%20und%20gsa%CC%88gnet%20-%20PLAYBACKVERSION.mp3",
-            "15. Beschänkt und gsägnet - PB",
+            'file:///Users/Regie1/Desktop/Junior21.playbackPack/',
+            '15%20-%20Bescha%CC%88nkt%20und%20gsa%CC%88gnet%20-%20PLAYBACKVERSION.mp3',
+            '15. Beschänkt und gsägnet - PB',
             166.55673469387756,
             {
-                "NS.objects": [
+                'NS.objects': [
                     { UID: 515 },
                     { UID: 517 },
                     { UID: 521 },
@@ -2533,7 +2533,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             21.2,
-            "Vers 1 Solo",
+            'Vers 1 Solo',
             151,
             {
                 MName: { UID: 284 },
@@ -2554,7 +2554,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             60.2,
-            "Chorus (1) Alt",
+            'Chorus (1) Alt',
             153,
             {
                 MName: { UID: 292 },
@@ -2575,7 +2575,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             104.4,
-            "Chorus (2) Alt / Tenor",
+            'Chorus (2) Alt / Tenor',
             155,
             {
                 MName: { UID: 537 },
@@ -2586,7 +2586,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             126.5,
-            "Interlude Alt / Tenor",
+            'Interlude Alt / Tenor',
             156,
             {
                 MName: { UID: 541 },
@@ -2597,11 +2597,11 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             133.7,
-            "Coda Alt / Tenor",
+            'Coda Alt / Tenor',
             157,
             {
-                "NS.data": {
-                    type: "Buffer",
+                'NS.data': {
+                    type: 'Buffer',
                     data: [
                         98, 111, 111, 107, 96, 3, 0, 0, 0, 0, 4, 16, 48, 0, 0,
                         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -2671,21 +2671,21 @@ const inputPropertyList = [
                 TPath: { UID: 545 },
             },
             {
-                "NS.base": { UID: 546 },
+                'NS.base': { UID: 546 },
                 $class: { UID: 6 },
-                "NS.relative": { UID: 548 },
+                'NS.relative': { UID: 548 },
             },
             {
-                "NS.base": { UID: 0 },
+                'NS.base': { UID: 0 },
                 $class: { UID: 6 },
-                "NS.relative": { UID: 547 },
+                'NS.relative': { UID: 547 },
             },
-            "file:///Users/Regie1/Desktop/Junior21.playbackPack/",
-            "17%20-%20Alles,%20won%20ich%20tue%20-%20PLAYBACKVERSION.mp3",
-            "17. Alles, won ich tue - PB",
+            'file:///Users/Regie1/Desktop/Junior21.playbackPack/',
+            '17%20-%20Alles,%20won%20ich%20tue%20-%20PLAYBACKVERSION.mp3',
+            '17. Alles, won ich tue - PB',
             173.4269387755102,
             {
-                "NS.objects": [
+                'NS.objects': [
                     { UID: 552 },
                     { UID: 554 },
                     { UID: 558 },
@@ -2719,7 +2719,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             10,
-            "Tag (1)",
+            'Tag (1)',
             171,
             {
                 MName: { UID: 560 },
@@ -2730,7 +2730,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             19.7,
-            "Vers (1) Solo",
+            'Vers (1) Solo',
             172,
             {
                 MName: { UID: 564 },
@@ -2741,7 +2741,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             38.9,
-            "Tag (2)",
+            'Tag (2)',
             173,
             {
                 MName: { UID: 568 },
@@ -2752,7 +2752,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             48.6,
-            "Vers (2)",
+            'Vers (2)',
             174,
             {
                 MName: { UID: 572 },
@@ -2763,7 +2763,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             67.7,
-            "Chorus (1)",
+            'Chorus (1)',
             175,
             {
                 MName: { UID: 576 },
@@ -2774,7 +2774,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             86.8,
-            "Tag (3)",
+            'Tag (3)',
             176,
             {
                 MName: { UID: 580 },
@@ -2785,7 +2785,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             96.4,
-            "Tag (4)",
+            'Tag (4)',
             177,
             {
                 MName: { UID: 584 },
@@ -2796,7 +2796,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             106.1,
-            "Vers (3)",
+            'Vers (3)',
             178,
             {
                 MName: { UID: 588 },
@@ -2807,7 +2807,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             120.3,
-            "Chorus (2)",
+            'Chorus (2)',
             179,
             {
                 MName: { UID: 592 },
@@ -2818,7 +2818,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             144.6,
-            "Tag (5)",
+            'Tag (5)',
             180,
             {
                 MName: { UID: 596 },
@@ -2829,11 +2829,11 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             154.2,
-            "Tag (6)",
+            'Tag (6)',
             181,
             {
-                "NS.data": {
-                    type: "Buffer",
+                'NS.data': {
+                    type: 'Buffer',
                     data: [
                         98, 111, 111, 107, 92, 3, 0, 0, 0, 0, 4, 16, 48, 0, 0,
                         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -2902,21 +2902,21 @@ const inputPropertyList = [
                 TPath: { UID: 600 },
             },
             {
-                "NS.base": { UID: 601 },
+                'NS.base': { UID: 601 },
                 $class: { UID: 6 },
-                "NS.relative": { UID: 603 },
+                'NS.relative': { UID: 603 },
             },
             {
-                "NS.base": { UID: 0 },
+                'NS.base': { UID: 0 },
                 $class: { UID: 6 },
-                "NS.relative": { UID: 602 },
+                'NS.relative': { UID: 602 },
             },
-            "file:///Users/Regie1/Desktop/Junior21.playbackPack/",
-            "Alt%20Teil%201.mp3",
-            "Alt Teil 1.mp3",
+            'file:///Users/Regie1/Desktop/Junior21.playbackPack/',
+            'Alt%20Teil%201.mp3',
+            'Alt Teil 1.mp3',
             739.9444897959183,
             {
-                "NS.objects": [
+                'NS.objects': [
                     { UID: 607 },
                     { UID: 610 },
                     { UID: 614 },
@@ -2940,7 +2940,7 @@ const inputPropertyList = [
                 prerollEnabled: { UID: 15 },
                 $class: { UID: 16 },
             },
-            "03 Save the Date - Alt",
+            '03 Save the Date - Alt',
             203,
             {
                 MName: { UID: 612 },
@@ -2951,7 +2951,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             58,
-            "03 Save the Date - normal",
+            '03 Save the Date - normal',
             303,
             {
                 MName: { UID: 616 },
@@ -2984,7 +2984,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             308,
-            "05 Absag - Alt",
+            '05 Absag - Alt',
             205,
             {
                 MName: { UID: 628 },
@@ -2995,7 +2995,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             392,
-            "05 Absag - normal",
+            '05 Absag - normal',
             305,
             {
                 MName: { UID: 632 },
@@ -3006,7 +3006,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             476,
-            "06 Terminkollision - Alt",
+            '06 Terminkollision - Alt',
             206,
             {
                 MName: { UID: 636 },
@@ -3017,7 +3017,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             510,
-            "06 Terminkollision - normal",
+            '06 Terminkollision - normal',
             306,
             {
                 MName: { UID: 640 },
@@ -3050,7 +3050,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             616,
-            "(08 Gar nid guet - Alt)",
+            '(08 Gar nid guet - Alt)',
             208,
             {
                 MName: { UID: 652 },
@@ -3061,11 +3061,11 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             678,
-            "(08 Gar nid guet - normal)",
+            '(08 Gar nid guet - normal)',
             308,
             {
-                "NS.data": {
-                    type: "Buffer",
+                'NS.data': {
+                    type: 'Buffer',
                     data: [
                         98, 111, 111, 107, 60, 3, 0, 0, 0, 0, 4, 16, 48, 0, 0,
                         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -3132,21 +3132,21 @@ const inputPropertyList = [
                 TPath: { UID: 656 },
             },
             {
-                "NS.base": { UID: 657 },
+                'NS.base': { UID: 657 },
                 $class: { UID: 6 },
-                "NS.relative": { UID: 659 },
+                'NS.relative': { UID: 659 },
             },
             {
-                "NS.base": { UID: 0 },
+                'NS.base': { UID: 0 },
                 $class: { UID: 6 },
-                "NS.relative": { UID: 658 },
+                'NS.relative': { UID: 658 },
             },
-            "file:///Users/Regie1/Desktop/Junior21.playbackPack/",
-            "Alt%20Teil%202.mp3",
-            "Alt Teil 2.mp3",
+            'file:///Users/Regie1/Desktop/Junior21.playbackPack/',
+            'Alt%20Teil%202.mp3',
+            'Alt Teil 2.mp3',
             707.9444897959183,
             {
-                "NS.objects": [
+                'NS.objects': [
                     { UID: 663 },
                     { UID: 666 },
                     { UID: 670 },
@@ -3170,7 +3170,7 @@ const inputPropertyList = [
                 prerollEnabled: { UID: 15 },
                 $class: { UID: 16 },
             },
-            "09 Good News - Alt",
+            '09 Good News - Alt',
             209,
             {
                 MName: { UID: 668 },
@@ -3181,7 +3181,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             60,
-            "09 Good News - normal",
+            '09 Good News - normal',
             309,
             {
                 MName: { UID: 672 },
@@ -3192,7 +3192,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             120,
-            "(10 Gott ladet alli Mensche ii - Alt)",
+            '(10 Gott ladet alli Mensche ii - Alt)',
             210,
             {
                 MName: { UID: 676 },
@@ -3203,7 +3203,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             160,
-            "(10 Gott ladet alli Mensche ii - normal)",
+            '(10 Gott ladet alli Mensche ii - normal)',
             310,
             {
                 MName: { UID: 680 },
@@ -3214,7 +3214,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             200,
-            "12 Freude herrscht - Alt",
+            '12 Freude herrscht - Alt',
             212,
             {
                 MName: { UID: 684 },
@@ -3225,7 +3225,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             238,
-            "12 Freude herrscht - normal",
+            '12 Freude herrscht - normal',
             312,
             {
                 MName: { UID: 688 },
@@ -3236,7 +3236,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             276,
-            "13 Mir danke dir - Alt",
+            '13 Mir danke dir - Alt',
             213,
             {
                 MName: { UID: 692 },
@@ -3247,7 +3247,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             338,
-            "13 Mir danked dir - normal",
+            '13 Mir danked dir - normal',
             313,
             {
                 MName: { UID: 696 },
@@ -3258,7 +3258,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             400,
-            "(14 Voller Gnad - Alt)",
+            '(14 Voller Gnad - Alt)',
             214,
             {
                 MName: { UID: 700 },
@@ -3269,7 +3269,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             494,
-            "(14 Voller Gnad - normal)",
+            '(14 Voller Gnad - normal)',
             314,
             {
                 MName: { UID: 704 },
@@ -3280,7 +3280,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             588,
-            "15 Beschänkt und gsägnet - Alt",
+            '15 Beschänkt und gsägnet - Alt',
             215,
             {
                 MName: { UID: 708 },
@@ -3291,11 +3291,11 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             648,
-            "15 Beschänkt und gsägnet - normal",
+            '15 Beschänkt und gsägnet - normal',
             315,
             {
-                "NS.data": {
-                    type: "Buffer",
+                'NS.data': {
+                    type: 'Buffer',
                     data: [
                         98, 111, 111, 107, 60, 3, 0, 0, 0, 0, 4, 16, 48, 0, 0,
                         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -3362,21 +3362,21 @@ const inputPropertyList = [
                 TPath: { UID: 712 },
             },
             {
-                "NS.base": { UID: 713 },
+                'NS.base': { UID: 713 },
                 $class: { UID: 6 },
-                "NS.relative": { UID: 715 },
+                'NS.relative': { UID: 715 },
             },
             {
-                "NS.base": { UID: 0 },
+                'NS.base': { UID: 0 },
                 $class: { UID: 6 },
-                "NS.relative": { UID: 714 },
+                'NS.relative': { UID: 714 },
             },
-            "file:///Users/Regie1/Desktop/Junior21.playbackPack/",
-            "Tenor%20Teil%201.mp3",
-            "Tenor Teil 1 (nur Family).mp3",
+            'file:///Users/Regie1/Desktop/Junior21.playbackPack/',
+            'Tenor%20Teil%201.mp3',
+            'Tenor Teil 1 (nur Family).mp3',
             739.9444897959183,
             {
-                "NS.objects": [
+                'NS.objects': [
                     { UID: 719 },
                     { UID: 722 },
                     { UID: 725 },
@@ -3400,7 +3400,7 @@ const inputPropertyList = [
                 prerollEnabled: { UID: 15 },
                 $class: { UID: 16 },
             },
-            "03 Save the Date - Tenor",
+            '03 Save the Date - Tenor',
             403,
             {
                 MName: { UID: 723 },
@@ -3410,7 +3410,7 @@ const inputPropertyList = [
                 prerollEnabled: { UID: 15 },
                 $class: { UID: 16 },
             },
-            "03 Save the Date - normal",
+            '03 Save the Date - normal',
             503,
             {
                 MName: { UID: 726 },
@@ -3440,7 +3440,7 @@ const inputPropertyList = [
                 prerollEnabled: { UID: 15 },
                 $class: { UID: 16 },
             },
-            "05 Absag - Tenor",
+            '05 Absag - Tenor',
             405,
             {
                 MName: { UID: 735 },
@@ -3450,7 +3450,7 @@ const inputPropertyList = [
                 prerollEnabled: { UID: 15 },
                 $class: { UID: 16 },
             },
-            "05 Absag - normal",
+            '05 Absag - normal',
             505,
             {
                 MName: { UID: 738 },
@@ -3460,7 +3460,7 @@ const inputPropertyList = [
                 prerollEnabled: { UID: 15 },
                 $class: { UID: 16 },
             },
-            "06 Terminkollision - Tenor",
+            '06 Terminkollision - Tenor',
             406,
             {
                 MName: { UID: 741 },
@@ -3470,7 +3470,7 @@ const inputPropertyList = [
                 prerollEnabled: { UID: 15 },
                 $class: { UID: 16 },
             },
-            "06 Terminkollision - normal",
+            '06 Terminkollision - normal',
             506,
             {
                 MName: { UID: 744 },
@@ -3500,7 +3500,7 @@ const inputPropertyList = [
                 prerollEnabled: { UID: 15 },
                 $class: { UID: 16 },
             },
-            "08 Gar nid guet - Tenor",
+            '08 Gar nid guet - Tenor',
             408,
             {
                 MName: { UID: 753 },
@@ -3510,11 +3510,11 @@ const inputPropertyList = [
                 prerollEnabled: { UID: 15 },
                 $class: { UID: 16 },
             },
-            "08 Gar nid guet - normal",
+            '08 Gar nid guet - normal',
             508,
             {
-                "NS.data": {
-                    type: "Buffer",
+                'NS.data': {
+                    type: 'Buffer',
                     data: [
                         98, 111, 111, 107, 60, 3, 0, 0, 0, 0, 4, 16, 48, 0, 0,
                         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -3581,21 +3581,21 @@ const inputPropertyList = [
                 TPath: { UID: 757 },
             },
             {
-                "NS.base": { UID: 758 },
+                'NS.base': { UID: 758 },
                 $class: { UID: 6 },
-                "NS.relative": { UID: 760 },
+                'NS.relative': { UID: 760 },
             },
             {
-                "NS.base": { UID: 0 },
+                'NS.base': { UID: 0 },
                 $class: { UID: 6 },
-                "NS.relative": { UID: 759 },
+                'NS.relative': { UID: 759 },
             },
-            "file:///Users/Regie1/Desktop/Junior21.playbackPack/",
-            "Tenor%20Teil%202.mp3",
-            "Tenor Teil 2 (nur Family).mp3",
+            'file:///Users/Regie1/Desktop/Junior21.playbackPack/',
+            'Tenor%20Teil%202.mp3',
+            'Tenor Teil 2 (nur Family).mp3',
             707.9444897959183,
             {
-                "NS.objects": [
+                'NS.objects': [
                     { UID: 764 },
                     { UID: 767 },
                     { UID: 770 },
@@ -3619,7 +3619,7 @@ const inputPropertyList = [
                 prerollEnabled: { UID: 15 },
                 $class: { UID: 16 },
             },
-            "09 Good News - Alt",
+            '09 Good News - Alt',
             409,
             {
                 MName: { UID: 768 },
@@ -3629,7 +3629,7 @@ const inputPropertyList = [
                 prerollEnabled: { UID: 15 },
                 $class: { UID: 16 },
             },
-            "09 Good News -normal",
+            '09 Good News -normal',
             509,
             {
                 MName: { UID: 771 },
@@ -3639,7 +3639,7 @@ const inputPropertyList = [
                 prerollEnabled: { UID: 15 },
                 $class: { UID: 16 },
             },
-            "10 Gott ladet alli Mensche ii - Tenor",
+            '10 Gott ladet alli Mensche ii - Tenor',
             410,
             {
                 MName: { UID: 774 },
@@ -3649,7 +3649,7 @@ const inputPropertyList = [
                 prerollEnabled: { UID: 15 },
                 $class: { UID: 16 },
             },
-            "10 Gott ladet alli Mensche ii - normal",
+            '10 Gott ladet alli Mensche ii - normal',
             510,
             {
                 MName: { UID: 777 },
@@ -3659,7 +3659,7 @@ const inputPropertyList = [
                 prerollEnabled: { UID: 15 },
                 $class: { UID: 16 },
             },
-            "12 Freude herrscht - Tenor",
+            '12 Freude herrscht - Tenor',
             412,
             {
                 MName: { UID: 780 },
@@ -3669,7 +3669,7 @@ const inputPropertyList = [
                 prerollEnabled: { UID: 15 },
                 $class: { UID: 16 },
             },
-            "12 Freude herrscht - normal",
+            '12 Freude herrscht - normal',
             512,
             {
                 MName: { UID: 783 },
@@ -3679,7 +3679,7 @@ const inputPropertyList = [
                 prerollEnabled: { UID: 15 },
                 $class: { UID: 16 },
             },
-            "13 Mir danked dir - Tenor",
+            '13 Mir danked dir - Tenor',
             413,
             {
                 MName: { UID: 786 },
@@ -3689,7 +3689,7 @@ const inputPropertyList = [
                 prerollEnabled: { UID: 15 },
                 $class: { UID: 16 },
             },
-            "13 Mir danked dir - normal",
+            '13 Mir danked dir - normal',
             513,
             {
                 MName: { UID: 789 },
@@ -3699,7 +3699,7 @@ const inputPropertyList = [
                 prerollEnabled: { UID: 15 },
                 $class: { UID: 16 },
             },
-            "14 Voller Gnad - Tenor",
+            '14 Voller Gnad - Tenor',
             414,
             {
                 MName: { UID: 792 },
@@ -3709,7 +3709,7 @@ const inputPropertyList = [
                 prerollEnabled: { UID: 15 },
                 $class: { UID: 16 },
             },
-            "14 Voller Gnad - normal",
+            '14 Voller Gnad - normal',
             514,
             {
                 MName: { UID: 795 },
@@ -3719,7 +3719,7 @@ const inputPropertyList = [
                 prerollEnabled: { UID: 15 },
                 $class: { UID: 16 },
             },
-            "15 Beschänkt und gsägnet - Tenor",
+            '15 Beschänkt und gsägnet - Tenor',
             415,
             {
                 MName: { UID: 798 },
@@ -3729,11 +3729,11 @@ const inputPropertyList = [
                 prerollEnabled: { UID: 15 },
                 $class: { UID: 16 },
             },
-            "15 Beschänkt und gsägnet - normal",
+            '15 Beschänkt und gsägnet - normal',
             515,
             {
-                "NS.data": {
-                    type: "Buffer",
+                'NS.data': {
+                    type: 'Buffer',
                     data: [
                         98, 111, 111, 107, 60, 3, 0, 0, 0, 0, 4, 16, 48, 0, 0,
                         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -3800,21 +3800,21 @@ const inputPropertyList = [
                 TPath: { UID: 802 },
             },
             {
-                "NS.base": { UID: 803 },
+                'NS.base': { UID: 803 },
                 $class: { UID: 6 },
-                "NS.relative": { UID: 805 },
+                'NS.relative': { UID: 805 },
             },
             {
-                "NS.base": { UID: 0 },
+                'NS.base': { UID: 0 },
                 $class: { UID: 6 },
-                "NS.relative": { UID: 804 },
+                'NS.relative': { UID: 804 },
             },
-            "file:///Users/Regie1/Desktop/Junior21.playbackPack/",
-            "Solo.mp3",
-            "Solo.mp3",
+            'file:///Users/Regie1/Desktop/Junior21.playbackPack/',
+            'Solo.mp3',
+            'Solo.mp3',
             399.934693877551,
             {
-                "NS.objects": [
+                'NS.objects': [
                     { UID: 809 },
                     { UID: 812 },
                     { UID: 816 },
@@ -3836,7 +3836,7 @@ const inputPropertyList = [
                 prerollEnabled: { UID: 15 },
                 $class: { UID: 16 },
             },
-            "03 Solo Vers (1)",
+            '03 Solo Vers (1)',
             603,
             {
                 MName: { UID: 814 },
@@ -3847,7 +3847,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             28,
-            "04 Solo Vers 2",
+            '04 Solo Vers 2',
             604,
             {
                 MName: { UID: 818 },
@@ -3858,7 +3858,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             68,
-            "07 Solo Vers 2",
+            '07 Solo Vers 2',
             607,
             {
                 MName: { UID: 822 },
@@ -3869,7 +3869,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             106,
-            "08 Solo Vers 2",
+            '08 Solo Vers 2',
             608,
             {
                 MName: { UID: 826 },
@@ -3880,7 +3880,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             132,
-            "09 Solo Vers 1",
+            '09 Solo Vers 1',
             609,
             {
                 MName: { UID: 830 },
@@ -3891,7 +3891,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             166,
-            "10 Solo Chorus (1) + Vers 1",
+            '10 Solo Chorus (1) + Vers 1',
             610,
             {
                 MName: { UID: 834 },
@@ -3902,7 +3902,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             234,
-            "11 Solo Chorus (1)",
+            '11 Solo Chorus (1)',
             611,
             {
                 MName: { UID: 838 },
@@ -3913,7 +3913,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             282,
-            "13 Solo Vers 1 + 2",
+            '13 Solo Vers 1 + 2',
             613,
             {
                 MName: { UID: 842 },
@@ -3924,7 +3924,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             328,
-            "15 Solo Vers 1",
+            '15 Solo Vers 1',
             615,
             {
                 MName: { UID: 846 },
@@ -3935,11 +3935,11 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
             366,
-            "17 Solo Vers (1)",
+            '17 Solo Vers (1)',
             617,
             {
-                "NS.data": {
-                    type: "Buffer",
+                'NS.data': {
+                    type: 'Buffer',
                     data: [
                         98, 111, 111, 107, 52, 3, 0, 0, 0, 0, 4, 16, 48, 0, 0,
                         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -4004,7 +4004,7 @@ const inputPropertyList = [
                 TShortCut: { UID: 18 },
                 TPath: { UID: 0 },
             },
-            { "NS.objects": [{ UID: 851 }], $class: { UID: 17 } },
+            { 'NS.objects': [{ UID: 851 }], $class: { UID: 17 } },
             {
                 MName: { UID: 852 },
                 MPosition: { UID: 12 },
@@ -4013,7 +4013,7 @@ const inputPropertyList = [
                 prerollEnabled: { UID: 15 },
                 $class: { UID: 16 },
             },
-            "Beginning",
+            'Beginning',
             {
                 $class: { UID: 21 },
                 TDuration: { UID: 12 },
@@ -4023,7 +4023,7 @@ const inputPropertyList = [
                 TShortCut: { UID: 18 },
                 TPath: { UID: 0 },
             },
-            { "NS.objects": [{ UID: 855 }], $class: { UID: 17 } },
+            { 'NS.objects': [{ UID: 855 }], $class: { UID: 17 } },
             {
                 MName: { UID: 852 },
                 MPosition: { UID: 12 },
@@ -4041,7 +4041,7 @@ const inputPropertyList = [
                 TShortCut: { UID: 18 },
                 TPath: { UID: 0 },
             },
-            { "NS.objects": [{ UID: 858 }], $class: { UID: 17 } },
+            { 'NS.objects': [{ UID: 858 }], $class: { UID: 17 } },
             {
                 MName: { UID: 852 },
                 MPosition: { UID: 12 },
@@ -4059,7 +4059,7 @@ const inputPropertyList = [
                 TShortCut: { UID: 18 },
                 TPath: { UID: 0 },
             },
-            { "NS.objects": [{ UID: 861 }], $class: { UID: 17 } },
+            { 'NS.objects': [{ UID: 861 }], $class: { UID: 17 } },
             {
                 MName: { UID: 852 },
                 MPosition: { UID: 12 },
@@ -4077,7 +4077,7 @@ const inputPropertyList = [
                 TShortCut: { UID: 18 },
                 TPath: { UID: 0 },
             },
-            { "NS.objects": [{ UID: 864 }], $class: { UID: 17 } },
+            { 'NS.objects': [{ UID: 864 }], $class: { UID: 17 } },
             {
                 MName: { UID: 852 },
                 MPosition: { UID: 12 },
@@ -4095,7 +4095,7 @@ const inputPropertyList = [
                 TShortCut: { UID: 18 },
                 TPath: { UID: 0 },
             },
-            { "NS.objects": [{ UID: 867 }], $class: { UID: 17 } },
+            { 'NS.objects': [{ UID: 867 }], $class: { UID: 17 } },
             {
                 MName: { UID: 852 },
                 MPosition: { UID: 12 },
@@ -4113,7 +4113,7 @@ const inputPropertyList = [
                 TShortCut: { UID: 18 },
                 TPath: { UID: 0 },
             },
-            { "NS.objects": [{ UID: 870 }], $class: { UID: 17 } },
+            { 'NS.objects': [{ UID: 870 }], $class: { UID: 17 } },
             {
                 MName: { UID: 852 },
                 MPosition: { UID: 12 },
@@ -4131,7 +4131,7 @@ const inputPropertyList = [
                 TShortCut: { UID: 18 },
                 TPath: { UID: 0 },
             },
-            { "NS.objects": [{ UID: 873 }], $class: { UID: 17 } },
+            { 'NS.objects': [{ UID: 873 }], $class: { UID: 17 } },
             {
                 MName: { UID: 852 },
                 MPosition: { UID: 12 },
@@ -4149,7 +4149,7 @@ const inputPropertyList = [
                 TShortCut: { UID: 18 },
                 TPath: { UID: 0 },
             },
-            { "NS.objects": [{ UID: 876 }], $class: { UID: 17 } },
+            { 'NS.objects': [{ UID: 876 }], $class: { UID: 17 } },
             {
                 MName: { UID: 852 },
                 MPosition: { UID: 12 },
@@ -4167,7 +4167,7 @@ const inputPropertyList = [
                 TShortCut: { UID: 18 },
                 TPath: { UID: 0 },
             },
-            { "NS.objects": [{ UID: 879 }], $class: { UID: 17 } },
+            { 'NS.objects': [{ UID: 879 }], $class: { UID: 17 } },
             {
                 MName: { UID: 852 },
                 MPosition: { UID: 12 },
@@ -4185,7 +4185,7 @@ const inputPropertyList = [
                 TShortCut: { UID: 18 },
                 TPath: { UID: 0 },
             },
-            { "NS.objects": [{ UID: 882 }], $class: { UID: 17 } },
+            { 'NS.objects': [{ UID: 882 }], $class: { UID: 17 } },
             {
                 MName: { UID: 852 },
                 MPosition: { UID: 12 },
@@ -4195,7 +4195,7 @@ const inputPropertyList = [
                 $class: { UID: 16 },
             },
         ],
-        $archiver: "NSKeyedArchiver",
+        $archiver: 'NSKeyedArchiver',
         $top: { root: { UID: 1 } },
     },
 ];
@@ -4203,10 +4203,10 @@ const inputPropertyList = [
 const expectedUnarchivedObject = [
     {
         Duration: 25.782857142857143,
-        Name: "1. Save the Date                        (Teil 1) - PB",
+        Name: '1. Save the Date                        (Teil 1) - PB',
         Markers: [
             {
-                Name: "Chorus Instrumental",
+                Name: 'Chorus Instrumental',
                 Position: 0,
                 ShortCut: 10,
                 Preroll: 0,
@@ -4214,28 +4214,28 @@ const expectedUnarchivedObject = [
             },
         ],
         ShortCut: 0,
-        Path: "01%20-%20Save%20the%20Date%20(Teil%201)%20%20-%20PLAYBACKVERSION.mp3",
+        Path: '01%20-%20Save%20the%20Date%20(Teil%201)%20%20-%20PLAYBACKVERSION.mp3',
     },
     {
         Duration: 83.17387755102041,
-        Name: "2. Save the Date (Teil 2)        PB mit Konzertintro",
+        Name: '2. Save the Date (Teil 2)        PB mit Konzertintro',
         Markers: [
             {
-                Name: "Chorus Instrumental Extended",
+                Name: 'Chorus Instrumental Extended',
                 Position: 0,
                 ShortCut: 20,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Chorus Instrumental",
+                Name: 'Chorus Instrumental',
                 Position: 36.8,
                 ShortCut: 21,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Chorus (einstimmig)",
+                Name: 'Chorus (einstimmig)',
                 Position: 55.3,
                 ShortCut: 22,
                 Preroll: 0,
@@ -4243,42 +4243,42 @@ const expectedUnarchivedObject = [
             },
         ],
         ShortCut: 0,
-        Path: "02%20-%20Save%20the%20Date%20(Teil%202)%20Konzertintro%20-%20HALBPLAYBACKVERSION.mp3",
+        Path: '02%20-%20Save%20the%20Date%20(Teil%202)%20Konzertintro%20-%20HALBPLAYBACKVERSION.mp3',
     },
     {
         Duration: 99.84,
-        Name: "3. Save the Date (Teil 3) - PB",
+        Name: '3. Save the Date (Teil 3) - PB',
         Markers: [
             {
-                Name: "Chorus (1)",
+                Name: 'Chorus (1)',
                 Position: 0,
                 ShortCut: 30,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Vers (1) Solo + Chor / Alt / Tenor",
+                Name: 'Vers (1) Solo + Chor / Alt / Tenor',
                 Position: 16.7,
                 ShortCut: 31,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Chorus (2) Alt / Tenor",
+                Name: 'Chorus (2) Alt / Tenor',
                 Position: 33,
                 ShortCut: 32,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Vers (2) Alt / Tenor",
+                Name: 'Vers (2) Alt / Tenor',
                 Position: 51.2,
                 ShortCut: 33,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Chorus (3) Alt / Tenor",
+                Name: 'Chorus (3) Alt / Tenor',
                 Position: 67.5,
                 ShortCut: 34,
                 Preroll: 0,
@@ -4286,56 +4286,56 @@ const expectedUnarchivedObject = [
             },
         ],
         ShortCut: 0,
-        Path: "03%20-%20Save%20the%20Date%20(Teil%203)%20-%20PLAYBACKVERSION.mp3",
+        Path: '03%20-%20Save%20the%20Date%20(Teil%203)%20-%20PLAYBACKVERSION.mp3',
     },
     {
         Duration: 195.10857142857142,
         Name: "4. D'Party stiigt - PB",
         Markers: [
             {
-                Name: "Intro",
+                Name: 'Intro',
                 Position: 0,
                 ShortCut: 40,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Vers (1)",
+                Name: 'Vers (1)',
                 Position: 8.9,
                 ShortCut: 41,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Chorus (1) Alt / Tenor",
+                Name: 'Chorus (1) Alt / Tenor',
                 Position: 36.2,
                 ShortCut: 42,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Vers (2) Solo",
+                Name: 'Vers (2) Solo',
                 Position: 66.7,
                 ShortCut: 43,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Chorus (2) Alt / Tenor",
+                Name: 'Chorus (2) Alt / Tenor',
                 Position: 94,
                 ShortCut: 44,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Bridge Alt / Tenor",
+                Name: 'Bridge Alt / Tenor',
                 Position: 124.3,
                 ShortCut: 45,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Chorus (3) Alt / Tenor",
+                Name: 'Chorus (3) Alt / Tenor',
                 Position: 151.7,
                 ShortCut: 46,
                 Preroll: 0,
@@ -4347,45 +4347,45 @@ const expectedUnarchivedObject = [
     },
     {
         Duration: 152.16326530612244,
-        Name: "5. Absag - PB",
+        Name: '5. Absag - PB',
         Markers: [
             {
-                Name: "Intro (1)",
+                Name: 'Intro (1)',
                 Position: 0,
                 ShortCut: 50,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Vers 1 + Transition",
+                Name: 'Vers 1 + Transition',
                 Position: 4.6,
                 ShortCut: 51,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Chorus 1 Alt / Tenor",
+                Name: 'Chorus 1 Alt / Tenor',
                 Position: 33.3,
                 ShortCut: 52,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Intro (2)",
+                Name: 'Intro (2)',
                 Position: 74.5,
                 ShortCut: 53,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Vers 2 + Transition",
+                Name: 'Vers 2 + Transition',
                 Position: 78.1,
                 ShortCut: 54,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Chorus 2 Alt / Tenor",
+                Name: 'Chorus 2 Alt / Tenor',
                 Position: 106.7,
                 ShortCut: 55,
                 Preroll: 0,
@@ -4393,56 +4393,56 @@ const expectedUnarchivedObject = [
             },
         ],
         ShortCut: 0,
-        Path: "05%20-%20Absag%20-%20PLAYBACKVERSION.mp3",
+        Path: '05%20-%20Absag%20-%20PLAYBACKVERSION.mp3',
     },
     {
         Duration: 136.0457142857143,
-        Name: "6. Terminkollision - PB",
+        Name: '6. Terminkollision - PB',
         Markers: [
             {
-                Name: "Intro (1)",
+                Name: 'Intro (1)',
                 Position: 0,
                 ShortCut: 60,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Vers (1)",
+                Name: 'Vers (1)',
                 Position: 3.7,
                 ShortCut: 61,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Chorus (1) Alt / Tenor",
+                Name: 'Chorus (1) Alt / Tenor',
                 Position: 31.5,
                 ShortCut: 62,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Intro (2)",
+                Name: 'Intro (2)',
                 Position: 62.1,
                 ShortCut: 63,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Vers (2)",
+                Name: 'Vers (2)',
                 Position: 66.4,
                 ShortCut: 64,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Chorus (2) Alt / Tenor",
+                Name: 'Chorus (2) Alt / Tenor',
                 Position: 94.2,
                 ShortCut: 65,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Intro (3)",
+                Name: 'Intro (3)',
                 Position: 124.9,
                 ShortCut: 66,
                 Preroll: 0,
@@ -4450,77 +4450,77 @@ const expectedUnarchivedObject = [
             },
         ],
         ShortCut: 0,
-        Path: "06%20-%20Terminkollision%20-%20PLAYBACKVERSION.mp3",
+        Path: '06%20-%20Terminkollision%20-%20PLAYBACKVERSION.mp3',
     },
     {
         Duration: 178.72979591836736,
         Name: "7. Wie sölled mir's ihm säge - HALB-PB",
         Markers: [
             {
-                Name: "Intro",
+                Name: 'Intro',
                 Position: 0,
                 ShortCut: 70,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Vers (1)",
+                Name: 'Vers (1)',
                 Position: 8.8,
                 ShortCut: 71,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Chorus (1) (Alt / Tenor)",
+                Name: 'Chorus (1) (Alt / Tenor)',
                 Position: 32.2,
                 ShortCut: 72,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Interlude 1 (1)",
+                Name: 'Interlude 1 (1)',
                 Position: 58.6,
                 ShortCut: 73,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Vers 2 Solo",
+                Name: 'Vers 2 Solo',
                 Position: 61.6,
                 ShortCut: 74,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Chorus (2) (Alt / Tenor)",
+                Name: 'Chorus (2) (Alt / Tenor)',
                 Position: 85,
                 ShortCut: 75,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Interlude 2",
+                Name: 'Interlude 2',
                 Position: 111.3,
                 ShortCut: 76,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Bridge",
+                Name: 'Bridge',
                 Position: 117,
                 ShortCut: 77,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Chorus (3) (Alt / Tenor)",
+                Name: 'Chorus (3) (Alt / Tenor)',
                 Position: 140.6,
                 ShortCut: 78,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Interlude 1 (2)",
+                Name: 'Interlude 1 (2)',
                 Position: 169.8,
                 ShortCut: 79,
                 Preroll: 0,
@@ -4532,73 +4532,73 @@ const expectedUnarchivedObject = [
     },
     {
         Duration: 128.49632653061224,
-        Name: "8. Gar nid guet - HALB-PB",
+        Name: '8. Gar nid guet - HALB-PB',
         Markers: [
             {
-                Name: "Intro",
+                Name: 'Intro',
                 Position: 0,
                 ShortCut: 80,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Chorus (1)",
+                Name: 'Chorus (1)',
                 Position: 4.6,
                 ShortCut: 81,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Vers (1)",
+                Name: 'Vers (1)',
                 Position: 19.4,
                 ShortCut: 82,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Chorus (2) (Alt / Tenor)",
+                Name: 'Chorus (2) (Alt / Tenor)',
                 Position: 34.2,
                 ShortCut: 83,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Vers 2 Solo",
+                Name: 'Vers 2 Solo',
                 Position: 49,
                 ShortCut: 84,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Interlude",
+                Name: 'Interlude',
                 Position: 66.7,
                 ShortCut: 85,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Vers (3)",
+                Name: 'Vers (3)',
                 Position: 71.1,
                 ShortCut: 86,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Chorus (3) (ab Hälfte + Alt)",
+                Name: 'Chorus (3) (ab Hälfte + Alt)',
                 Position: 85.8,
                 ShortCut: 87,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Chorus (4) (Alt + Tenor)",
+                Name: 'Chorus (4) (Alt + Tenor)',
                 Position: 100.7,
                 ShortCut: 88,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Coda (Alt + Tenor)",
+                Name: 'Coda (Alt + Tenor)',
                 Position: 115.4,
                 ShortCut: 89,
                 Preroll: 0,
@@ -4606,49 +4606,49 @@ const expectedUnarchivedObject = [
             },
         ],
         ShortCut: 0,
-        Path: "08%20-%20Gar%20nid%20guet%20-%20HALBPLAYBACKVERSION.mp3",
+        Path: '08%20-%20Gar%20nid%20guet%20-%20HALBPLAYBACKVERSION.mp3',
     },
     {
         Duration: 144.24816326530612,
-        Name: "9. Good News - PB",
+        Name: '9. Good News - PB',
         Markers: [
             {
-                Name: "Intro",
+                Name: 'Intro',
                 Position: 0,
                 ShortCut: 90,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Vers 1 Solo",
+                Name: 'Vers 1 Solo',
                 Position: 5.1,
                 ShortCut: 91,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Vers 2",
+                Name: 'Vers 2',
                 Position: 25.4,
                 ShortCut: 92,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Chorus (1) Tenor",
+                Name: 'Chorus (1) Tenor',
                 Position: 45.5,
                 ShortCut: 93,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Vers 3",
+                Name: 'Vers 3',
                 Position: 65.7,
                 ShortCut: 94,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Chorus (2) Alt / Tenor",
+                Name: 'Chorus (2) Alt / Tenor',
                 Position: 86,
                 ShortCut: 95,
                 Preroll: 0,
@@ -4662,7 +4662,7 @@ const expectedUnarchivedObject = [
                 PrerollEnabled: false,
             },
             {
-                Name: "Chorus (3) Alt / Tenor",
+                Name: 'Chorus (3) Alt / Tenor',
                 Position: 116.4,
                 ShortCut: 97,
                 Preroll: 0,
@@ -4670,56 +4670,56 @@ const expectedUnarchivedObject = [
             },
         ],
         ShortCut: 0,
-        Path: "09%20-%20Good%20News%20-%20PLAYBACKVERSION.mp3",
+        Path: '09%20-%20Good%20News%20-%20PLAYBACKVERSION.mp3',
     },
     {
         Duration: 210.72979591836736,
-        Name: "10. Gott ladet alli Mensche ii - HALB-PB",
+        Name: '10. Gott ladet alli Mensche ii - HALB-PB',
         Markers: [
             {
-                Name: "Intro",
+                Name: 'Intro',
                 Position: 0,
                 ShortCut: 100,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Chorus (1) Solo",
+                Name: 'Chorus (1) Solo',
                 Position: 7.3,
                 ShortCut: 101,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Vers 1 Solo",
+                Name: 'Vers 1 Solo',
                 Position: 40.4,
                 ShortCut: 102,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Chorus (2)",
+                Name: 'Chorus (2)',
                 Position: 60.6,
                 ShortCut: 103,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Vers 2",
+                Name: 'Vers 2',
                 Position: 90.4,
                 ShortCut: 104,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Bridge (Alt + Tenor)",
+                Name: 'Bridge (Alt + Tenor)',
                 Position: 110.6,
                 ShortCut: 105,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Vers 3",
+                Name: 'Vers 3',
                 Position: 137.3,
                 ShortCut: 106,
                 Preroll: 0,
@@ -4733,7 +4733,7 @@ const expectedUnarchivedObject = [
                 PrerollEnabled: false,
             },
             {
-                Name: "Coda",
+                Name: 'Coda',
                 Position: 183.8,
                 ShortCut: 108,
                 Preroll: 0,
@@ -4741,63 +4741,63 @@ const expectedUnarchivedObject = [
             },
         ],
         ShortCut: 0,
-        Path: "10%20-%20Gott%20ladet%20alli%20Mensche%20ii%20-%20HALBPLAYBACKVERSION.mp3",
+        Path: '10%20-%20Gott%20ladet%20alli%20Mensche%20ii%20-%20HALBPLAYBACKVERSION.mp3',
     },
     {
         Duration: 163.63102040816327,
         Name: "11. S'het no Platz - PB",
         Markers: [
             {
-                Name: "Intro",
+                Name: 'Intro',
                 Position: 0,
                 ShortCut: 110,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Vers 1",
+                Name: 'Vers 1',
                 Position: 10.6,
                 ShortCut: 111,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Pre-Chorus (1)",
+                Name: 'Pre-Chorus (1)',
                 Position: 22,
                 ShortCut: 112,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Chorus (1)-1 Solo",
+                Name: 'Chorus (1)-1 Solo',
                 Position: 30.2,
                 ShortCut: 113,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Chorus (1)-2 Solo",
+                Name: 'Chorus (1)-2 Solo',
                 Position: 56.9,
                 ShortCut: 114,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Interlude",
+                Name: 'Interlude',
                 Position: 73.1,
                 ShortCut: 115,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Vers 2",
+                Name: 'Vers 2',
                 Position: 82.9,
                 ShortCut: 116,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Pre-Chorus (2)",
+                Name: 'Pre-Chorus (2)',
                 Position: 95.9,
                 ShortCut: 117,
                 Preroll: 0,
@@ -4811,7 +4811,7 @@ const expectedUnarchivedObject = [
                 PrerollEnabled: false,
             },
             {
-                Name: "Coda",
+                Name: 'Coda',
                 Position: 138.7,
                 ShortCut: 119,
                 Preroll: 0,
@@ -4823,59 +4823,59 @@ const expectedUnarchivedObject = [
     },
     {
         Duration: 159.26857142857142,
-        Name: "12. Freude herrscht - PB",
+        Name: '12. Freude herrscht - PB',
         Markers: [
             {
-                Name: "Intro",
+                Name: 'Intro',
                 Position: 0,
                 ShortCut: 120,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Vers 1",
+                Name: 'Vers 1',
                 Position: 11.8,
                 ShortCut: 121,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Pre-Chorus (1)",
+                Name: 'Pre-Chorus (1)',
                 Position: 25.5,
                 ShortCut: 122,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Chorus (1) Alt / Tenor",
+                Name: 'Chorus (1) Alt / Tenor',
                 Position: 36.9,
                 ShortCut: 123,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Vers 2",
+                Name: 'Vers 2',
                 Position: 63.9,
                 ShortCut: 124,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Pre-Chorus (2)",
+                Name: 'Pre-Chorus (2)',
                 Position: 79.8,
                 ShortCut: 125,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Chorus (2) Alt / Tenor",
+                Name: 'Chorus (2) Alt / Tenor',
                 Position: 91.2,
                 ShortCut: 126,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Chorus (3) Alt / Tenor",
+                Name: 'Chorus (3) Alt / Tenor',
                 Position: 118.4,
                 ShortCut: 127,
                 Preroll: 0,
@@ -4883,70 +4883,70 @@ const expectedUnarchivedObject = [
             },
         ],
         ShortCut: 0,
-        Path: "12%20-%20Freude%20herrscht%20-%20PLAYBACKVERSION.mp3",
+        Path: '12%20-%20Freude%20herrscht%20-%20PLAYBACKVERSION.mp3',
     },
     {
         Duration: 140.8522448979592,
-        Name: "13. Mir danked dir - PB",
+        Name: '13. Mir danked dir - PB',
         Markers: [
             {
-                Name: "Intro",
+                Name: 'Intro',
                 Position: 0,
                 ShortCut: 130,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Vers 1 Solo",
+                Name: 'Vers 1 Solo',
                 Position: 4.7,
                 ShortCut: 131,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Vers 2 Solo + Chor",
+                Name: 'Vers 2 Solo + Chor',
                 Position: 22.7,
                 ShortCut: 132,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Vers 3",
+                Name: 'Vers 3',
                 Position: 40.5,
                 ShortCut: 133,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Vers 4 Alt / Tenor",
+                Name: 'Vers 4 Alt / Tenor',
                 Position: 58.7,
                 ShortCut: 134,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Interlude",
+                Name: 'Interlude',
                 Position: 80.6,
                 ShortCut: 135,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Chorus 5 Alt / Tenor",
+                Name: 'Chorus 5 Alt / Tenor',
                 Position: 92.8,
                 ShortCut: 136,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Chorus 6 Alt / Tenor",
+                Name: 'Chorus 6 Alt / Tenor',
                 Position: 108.6,
                 ShortCut: 137,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Outro",
+                Name: 'Outro',
                 Position: 126.7,
                 ShortCut: 138,
                 Preroll: 0,
@@ -4954,42 +4954,42 @@ const expectedUnarchivedObject = [
             },
         ],
         ShortCut: 0,
-        Path: "13%20-%20Mir%20danked%20dir%20-%20PLAYBACKVERSION.mp3",
+        Path: '13%20-%20Mir%20danked%20dir%20-%20PLAYBACKVERSION.mp3',
     },
     {
         Duration: 211.40897959183673,
-        Name: "14. Voller Gnad - HALB-PB",
+        Name: '14. Voller Gnad - HALB-PB',
         Markers: [
             {
-                Name: "Intro",
+                Name: 'Intro',
                 Position: 0,
                 ShortCut: 140,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Chorus (1)",
+                Name: 'Chorus (1)',
                 Position: 10.5,
                 ShortCut: 141,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Vers 1",
+                Name: 'Vers 1',
                 Position: 46.3,
                 ShortCut: 142,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Chorus (2) (Alt / Tenor)",
+                Name: 'Chorus (2) (Alt / Tenor)',
                 Position: 74.8,
                 ShortCut: 143,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Vers 2",
+                Name: 'Vers 2',
                 Position: 110.9,
                 ShortCut: 144,
                 Preroll: 0,
@@ -5003,14 +5003,14 @@ const expectedUnarchivedObject = [
                 PrerollEnabled: false,
             },
             {
-                Name: "Chorus (4) (Alt / Tenor)",
+                Name: 'Chorus (4) (Alt / Tenor)',
                 Position: 154.5,
                 ShortCut: 146,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Coda (Alt / Tenor)",
+                Name: 'Coda (Alt / Tenor)',
                 Position: 186.8,
                 ShortCut: 147,
                 Preroll: 0,
@@ -5018,63 +5018,63 @@ const expectedUnarchivedObject = [
             },
         ],
         ShortCut: 0,
-        Path: "14%20-%20Voller%20Gnad%20-%20HALBPLAYBACKVERSION.mp3",
+        Path: '14%20-%20Voller%20Gnad%20-%20HALBPLAYBACKVERSION.mp3',
     },
     {
         Duration: 166.55673469387756,
-        Name: "15. Beschänkt und gsägnet - PB",
+        Name: '15. Beschänkt und gsägnet - PB',
         Markers: [
             {
-                Name: "Intro",
+                Name: 'Intro',
                 Position: 0,
                 ShortCut: 150,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Vers 1 Solo",
+                Name: 'Vers 1 Solo',
                 Position: 21.2,
                 ShortCut: 151,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Vers 2",
+                Name: 'Vers 2',
                 Position: 40.7,
                 ShortCut: 152,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Chorus (1) Alt",
+                Name: 'Chorus (1) Alt',
                 Position: 60.2,
                 ShortCut: 153,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Vers 3",
+                Name: 'Vers 3',
                 Position: 84.8,
                 ShortCut: 154,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Chorus (2) Alt / Tenor",
+                Name: 'Chorus (2) Alt / Tenor',
                 Position: 104.4,
                 ShortCut: 155,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Interlude Alt / Tenor",
+                Name: 'Interlude Alt / Tenor',
                 Position: 126.5,
                 ShortCut: 156,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Coda Alt / Tenor",
+                Name: 'Coda Alt / Tenor',
                 Position: 133.7,
                 ShortCut: 157,
                 Preroll: 0,
@@ -5082,91 +5082,91 @@ const expectedUnarchivedObject = [
             },
         ],
         ShortCut: 0,
-        Path: "15%20-%20Bescha%CC%88nkt%20und%20gsa%CC%88gnet%20-%20PLAYBACKVERSION.mp3",
+        Path: '15%20-%20Bescha%CC%88nkt%20und%20gsa%CC%88gnet%20-%20PLAYBACKVERSION.mp3',
     },
     {
         Duration: 173.4269387755102,
-        Name: "17. Alles, won ich tue - PB",
+        Name: '17. Alles, won ich tue - PB',
         Markers: [
             {
-                Name: "Intro",
+                Name: 'Intro',
                 Position: 0,
                 ShortCut: 170,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Tag (1)",
+                Name: 'Tag (1)',
                 Position: 10,
                 ShortCut: 171,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Vers (1) Solo",
+                Name: 'Vers (1) Solo',
                 Position: 19.7,
                 ShortCut: 172,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Tag (2)",
+                Name: 'Tag (2)',
                 Position: 38.9,
                 ShortCut: 173,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Vers (2)",
+                Name: 'Vers (2)',
                 Position: 48.6,
                 ShortCut: 174,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Chorus (1)",
+                Name: 'Chorus (1)',
                 Position: 67.7,
                 ShortCut: 175,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Tag (3)",
+                Name: 'Tag (3)',
                 Position: 86.8,
                 ShortCut: 176,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Tag (4)",
+                Name: 'Tag (4)',
                 Position: 96.4,
                 ShortCut: 177,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Vers (3)",
+                Name: 'Vers (3)',
                 Position: 106.1,
                 ShortCut: 178,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Chorus (2)",
+                Name: 'Chorus (2)',
                 Position: 120.3,
                 ShortCut: 179,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Tag (5)",
+                Name: 'Tag (5)',
                 Position: 144.6,
                 ShortCut: 180,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "Tag (6)",
+                Name: 'Tag (6)',
                 Position: 154.2,
                 ShortCut: 181,
                 Preroll: 0,
@@ -5174,21 +5174,21 @@ const expectedUnarchivedObject = [
             },
         ],
         ShortCut: 0,
-        Path: "17%20-%20Alles,%20won%20ich%20tue%20-%20PLAYBACKVERSION.mp3",
+        Path: '17%20-%20Alles,%20won%20ich%20tue%20-%20PLAYBACKVERSION.mp3',
     },
     {
         Duration: 739.9444897959183,
-        Name: "Alt Teil 1.mp3",
+        Name: 'Alt Teil 1.mp3',
         Markers: [
             {
-                Name: "03 Save the Date - Alt",
+                Name: '03 Save the Date - Alt',
                 Position: 0,
                 ShortCut: 203,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "03 Save the Date - normal",
+                Name: '03 Save the Date - normal',
                 Position: 58,
                 ShortCut: 303,
                 Preroll: 0,
@@ -5209,28 +5209,28 @@ const expectedUnarchivedObject = [
                 PrerollEnabled: false,
             },
             {
-                Name: "05 Absag - Alt",
+                Name: '05 Absag - Alt',
                 Position: 308,
                 ShortCut: 205,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "05 Absag - normal",
+                Name: '05 Absag - normal',
                 Position: 392,
                 ShortCut: 305,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "06 Terminkollision - Alt",
+                Name: '06 Terminkollision - Alt',
                 Position: 476,
                 ShortCut: 206,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "06 Terminkollision - normal",
+                Name: '06 Terminkollision - normal',
                 Position: 510,
                 ShortCut: 306,
                 Preroll: 0,
@@ -5251,14 +5251,14 @@ const expectedUnarchivedObject = [
                 PrerollEnabled: false,
             },
             {
-                Name: "(08 Gar nid guet - Alt)",
+                Name: '(08 Gar nid guet - Alt)',
                 Position: 616,
                 ShortCut: 208,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "(08 Gar nid guet - normal)",
+                Name: '(08 Gar nid guet - normal)',
                 Position: 678,
                 ShortCut: 308,
                 Preroll: 0,
@@ -5266,91 +5266,91 @@ const expectedUnarchivedObject = [
             },
         ],
         ShortCut: 0,
-        Path: "Alt%20Teil%201.mp3",
+        Path: 'Alt%20Teil%201.mp3',
     },
     {
         Duration: 707.9444897959183,
-        Name: "Alt Teil 2.mp3",
+        Name: 'Alt Teil 2.mp3',
         Markers: [
             {
-                Name: "09 Good News - Alt",
+                Name: '09 Good News - Alt',
                 Position: 0,
                 ShortCut: 209,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "09 Good News - normal",
+                Name: '09 Good News - normal',
                 Position: 60,
                 ShortCut: 309,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "(10 Gott ladet alli Mensche ii - Alt)",
+                Name: '(10 Gott ladet alli Mensche ii - Alt)',
                 Position: 120,
                 ShortCut: 210,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "(10 Gott ladet alli Mensche ii - normal)",
+                Name: '(10 Gott ladet alli Mensche ii - normal)',
                 Position: 160,
                 ShortCut: 310,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "12 Freude herrscht - Alt",
+                Name: '12 Freude herrscht - Alt',
                 Position: 200,
                 ShortCut: 212,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "12 Freude herrscht - normal",
+                Name: '12 Freude herrscht - normal',
                 Position: 238,
                 ShortCut: 312,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "13 Mir danke dir - Alt",
+                Name: '13 Mir danke dir - Alt',
                 Position: 276,
                 ShortCut: 213,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "13 Mir danked dir - normal",
+                Name: '13 Mir danked dir - normal',
                 Position: 338,
                 ShortCut: 313,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "(14 Voller Gnad - Alt)",
+                Name: '(14 Voller Gnad - Alt)',
                 Position: 400,
                 ShortCut: 214,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "(14 Voller Gnad - normal)",
+                Name: '(14 Voller Gnad - normal)',
                 Position: 494,
                 ShortCut: 314,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "15 Beschänkt und gsägnet - Alt",
+                Name: '15 Beschänkt und gsägnet - Alt',
                 Position: 588,
                 ShortCut: 215,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "15 Beschänkt und gsägnet - normal",
+                Name: '15 Beschänkt und gsägnet - normal',
                 Position: 648,
                 ShortCut: 315,
                 Preroll: 0,
@@ -5358,21 +5358,21 @@ const expectedUnarchivedObject = [
             },
         ],
         ShortCut: 0,
-        Path: "Alt%20Teil%202.mp3",
+        Path: 'Alt%20Teil%202.mp3',
     },
     {
         Duration: 739.9444897959183,
-        Name: "Tenor Teil 1 (nur Family).mp3",
+        Name: 'Tenor Teil 1 (nur Family).mp3',
         Markers: [
             {
-                Name: "03 Save the Date - Tenor",
+                Name: '03 Save the Date - Tenor',
                 Position: 0,
                 ShortCut: 403,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "03 Save the Date - normal",
+                Name: '03 Save the Date - normal',
                 Position: 58,
                 ShortCut: 503,
                 Preroll: 0,
@@ -5393,28 +5393,28 @@ const expectedUnarchivedObject = [
                 PrerollEnabled: false,
             },
             {
-                Name: "05 Absag - Tenor",
+                Name: '05 Absag - Tenor',
                 Position: 308,
                 ShortCut: 405,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "05 Absag - normal",
+                Name: '05 Absag - normal',
                 Position: 392,
                 ShortCut: 505,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "06 Terminkollision - Tenor",
+                Name: '06 Terminkollision - Tenor',
                 Position: 476,
                 ShortCut: 406,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "06 Terminkollision - normal",
+                Name: '06 Terminkollision - normal',
                 Position: 510,
                 ShortCut: 506,
                 Preroll: 0,
@@ -5435,14 +5435,14 @@ const expectedUnarchivedObject = [
                 PrerollEnabled: false,
             },
             {
-                Name: "08 Gar nid guet - Tenor",
+                Name: '08 Gar nid guet - Tenor',
                 Position: 616,
                 ShortCut: 408,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "08 Gar nid guet - normal",
+                Name: '08 Gar nid guet - normal',
                 Position: 678,
                 ShortCut: 508,
                 Preroll: 0,
@@ -5450,91 +5450,91 @@ const expectedUnarchivedObject = [
             },
         ],
         ShortCut: 0,
-        Path: "Tenor%20Teil%201.mp3",
+        Path: 'Tenor%20Teil%201.mp3',
     },
     {
         Duration: 707.9444897959183,
-        Name: "Tenor Teil 2 (nur Family).mp3",
+        Name: 'Tenor Teil 2 (nur Family).mp3',
         Markers: [
             {
-                Name: "09 Good News - Alt",
+                Name: '09 Good News - Alt',
                 Position: 0,
                 ShortCut: 409,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "09 Good News -normal",
+                Name: '09 Good News -normal',
                 Position: 60,
                 ShortCut: 509,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "10 Gott ladet alli Mensche ii - Tenor",
+                Name: '10 Gott ladet alli Mensche ii - Tenor',
                 Position: 120,
                 ShortCut: 410,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "10 Gott ladet alli Mensche ii - normal",
+                Name: '10 Gott ladet alli Mensche ii - normal',
                 Position: 160,
                 ShortCut: 510,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "12 Freude herrscht - Tenor",
+                Name: '12 Freude herrscht - Tenor',
                 Position: 200,
                 ShortCut: 412,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "12 Freude herrscht - normal",
+                Name: '12 Freude herrscht - normal',
                 Position: 238,
                 ShortCut: 512,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "13 Mir danked dir - Tenor",
+                Name: '13 Mir danked dir - Tenor',
                 Position: 276,
                 ShortCut: 413,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "13 Mir danked dir - normal",
+                Name: '13 Mir danked dir - normal',
                 Position: 338,
                 ShortCut: 513,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "14 Voller Gnad - Tenor",
+                Name: '14 Voller Gnad - Tenor',
                 Position: 400,
                 ShortCut: 414,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "14 Voller Gnad - normal",
+                Name: '14 Voller Gnad - normal',
                 Position: 494,
                 ShortCut: 514,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "15 Beschänkt und gsägnet - Tenor",
+                Name: '15 Beschänkt und gsägnet - Tenor',
                 Position: 588,
                 ShortCut: 415,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "15 Beschänkt und gsägnet - normal",
+                Name: '15 Beschänkt und gsägnet - normal',
                 Position: 648,
                 ShortCut: 515,
                 Preroll: 0,
@@ -5542,77 +5542,77 @@ const expectedUnarchivedObject = [
             },
         ],
         ShortCut: 0,
-        Path: "Tenor%20Teil%202.mp3",
+        Path: 'Tenor%20Teil%202.mp3',
     },
     {
         Duration: 399.934693877551,
-        Name: "Solo.mp3",
+        Name: 'Solo.mp3',
         Markers: [
             {
-                Name: "03 Solo Vers (1)",
+                Name: '03 Solo Vers (1)',
                 Position: 0,
                 ShortCut: 603,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "04 Solo Vers 2",
+                Name: '04 Solo Vers 2',
                 Position: 28,
                 ShortCut: 604,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "07 Solo Vers 2",
+                Name: '07 Solo Vers 2',
                 Position: 68,
                 ShortCut: 607,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "08 Solo Vers 2",
+                Name: '08 Solo Vers 2',
                 Position: 106,
                 ShortCut: 608,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "09 Solo Vers 1",
+                Name: '09 Solo Vers 1',
                 Position: 132,
                 ShortCut: 609,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "10 Solo Chorus (1) + Vers 1",
+                Name: '10 Solo Chorus (1) + Vers 1',
                 Position: 166,
                 ShortCut: 610,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "11 Solo Chorus (1)",
+                Name: '11 Solo Chorus (1)',
                 Position: 234,
                 ShortCut: 611,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "13 Solo Vers 1 + 2",
+                Name: '13 Solo Vers 1 + 2',
                 Position: 282,
                 ShortCut: 613,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "15 Solo Vers 1",
+                Name: '15 Solo Vers 1',
                 Position: 328,
                 ShortCut: 615,
                 Preroll: 0,
                 PrerollEnabled: false,
             },
             {
-                Name: "17 Solo Vers (1)",
+                Name: '17 Solo Vers (1)',
                 Position: 366,
                 ShortCut: 617,
                 Preroll: 0,
@@ -5620,14 +5620,14 @@ const expectedUnarchivedObject = [
             },
         ],
         ShortCut: 0,
-        Path: "Solo.mp3",
+        Path: 'Solo.mp3',
     },
     {
         Duration: 0,
         Name: null,
         Markers: [
             {
-                Name: "Beginning",
+                Name: 'Beginning',
                 Position: 0,
                 ShortCut: 0,
                 Preroll: 0,
@@ -5642,7 +5642,7 @@ const expectedUnarchivedObject = [
         Name: null,
         Markers: [
             {
-                Name: "Beginning",
+                Name: 'Beginning',
                 Position: 0,
                 ShortCut: 0,
                 Preroll: 0,
@@ -5657,7 +5657,7 @@ const expectedUnarchivedObject = [
         Name: null,
         Markers: [
             {
-                Name: "Beginning",
+                Name: 'Beginning',
                 Position: 0,
                 ShortCut: 0,
                 Preroll: 0,
@@ -5672,7 +5672,7 @@ const expectedUnarchivedObject = [
         Name: null,
         Markers: [
             {
-                Name: "Beginning",
+                Name: 'Beginning',
                 Position: 0,
                 ShortCut: 0,
                 Preroll: 0,
@@ -5687,7 +5687,7 @@ const expectedUnarchivedObject = [
         Name: null,
         Markers: [
             {
-                Name: "Beginning",
+                Name: 'Beginning',
                 Position: 0,
                 ShortCut: 0,
                 Preroll: 0,
@@ -5702,7 +5702,7 @@ const expectedUnarchivedObject = [
         Name: null,
         Markers: [
             {
-                Name: "Beginning",
+                Name: 'Beginning',
                 Position: 0,
                 ShortCut: 0,
                 Preroll: 0,
@@ -5717,7 +5717,7 @@ const expectedUnarchivedObject = [
         Name: null,
         Markers: [
             {
-                Name: "Beginning",
+                Name: 'Beginning',
                 Position: 0,
                 ShortCut: 0,
                 Preroll: 0,
@@ -5732,7 +5732,7 @@ const expectedUnarchivedObject = [
         Name: null,
         Markers: [
             {
-                Name: "Beginning",
+                Name: 'Beginning',
                 Position: 0,
                 ShortCut: 0,
                 Preroll: 0,
@@ -5747,7 +5747,7 @@ const expectedUnarchivedObject = [
         Name: null,
         Markers: [
             {
-                Name: "Beginning",
+                Name: 'Beginning',
                 Position: 0,
                 ShortCut: 0,
                 Preroll: 0,
@@ -5762,7 +5762,7 @@ const expectedUnarchivedObject = [
         Name: null,
         Markers: [
             {
-                Name: "Beginning",
+                Name: 'Beginning',
                 Position: 0,
                 ShortCut: 0,
                 Preroll: 0,
@@ -5777,7 +5777,7 @@ const expectedUnarchivedObject = [
         Name: null,
         Markers: [
             {
-                Name: "Beginning",
+                Name: 'Beginning',
                 Position: 0,
                 ShortCut: 0,
                 Preroll: 0,
@@ -5792,26 +5792,26 @@ const expectedUnarchivedObject = [
 const inputPropertyListWithOtherArchiver = [
     {
         $version: 100000,
-        $objects: ["$null", ""],
-        $archiver: "OtherArchiver",
+        $objects: ['$null', ''],
+        $archiver: 'OtherArchiver',
         $top: { root: { UID: 1 } },
     },
 ];
 
-import NSKeyedUnarchiver from "./NSKeyedUnarchiver";
+import NSKeyedUnarchiver from '.';
 
 /** Jest tests */
-test("with full LivePlayback property list", () => {
+test('with full LivePlayback property list', () => {
     var actualUnarchivedObject = new NSKeyedUnarchiver().unarchive(
         inputPropertyList
     );
     expect(actualUnarchivedObject).toEqual(expectedUnarchivedObject);
 });
 
-test("with bad archiver name", () => {
+test('with bad archiver name', () => {
     const t = () => {
         new NSKeyedUnarchiver().unarchive(inputPropertyListWithOtherArchiver);
     };
     expect(t).toThrow(Error);
-    expect(t).toThrow("UnsupportedArchiver(OtherArchiver)");
+    expect(t).toThrow('UnsupportedArchiver(OtherArchiver)');
 });
