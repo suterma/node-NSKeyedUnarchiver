@@ -1,5 +1,5 @@
 {
-    "name": "nskeyedunarchiver-liveplayback",
+    "name": "@suterma/nskeyedunarchiver-liveplayback",
     "version": "0.1.3",
     "description": "A simple NSKeyedUnarchiver (implemented and tested only to work with data from the LivePlayback iOS App).",
     "homepage": "https://github.com/suterma/node-NSKeyedUnarchiver-LivePlayback",
